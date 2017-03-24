@@ -1,3 +1,5 @@
+
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -8,7 +10,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 public class AddJson {
-	
+    private PrintWriter pw;
 	//https://api.themoviedb.org/3/movie/popular?api_key=d53c99e97da849ea55b8ce31fd5e7666&language=en-FR
 	//w92", "w154", "w185", "w342", "w500", "w780
 	//http://image.tmdb.org/t/p/w185//nBNZadXqJSdt05SHLqgT0HuC5Gm.jpg 
@@ -21,7 +23,9 @@ public class AddJson {
 	private boolean erreur = false;
 	private String inconnu = "unknown";
 
-	public AddJson (){
+	public AddJson (PrintWriter pw){
+        this.pw = pw;
+
 		
 	}
 	
@@ -189,6 +193,21 @@ public class AddJson {
     	album = album.replace("'", "''");
     	image = image.replace("'", "''");
     	auteur = auteur.replace("'", "''");
+
+		StringBuilder sb = new StringBuilder();
+        sb.append(title);
+        sb.append(';');
+        sb.append(album);
+        sb.append(';');
+        sb.append(image);
+        sb.append(';');
+        sb.append(auteur);
+        sb.append('\n');
+
+		pw.append(sb.toString());
+
+		System.out.println("done!");
+
 
 
 		busy = false;
@@ -383,7 +402,7 @@ public class AddJson {
 								while (busy==true){
 									System.out.println("errreur");
 									try {
-										Thread.sleep(50);
+										Thread.sleep(250);
 									} catch (InterruptedException e) {
 										// TODO Auto-generated catch block
 										e.printStackTrace();

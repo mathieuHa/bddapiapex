@@ -1,651 +1,666 @@
 {
   "tracks" : {
-    "href" : "https://api.spotify.com/v1/search?query=Acapulco&type=track&offset=0&limit=10",
+    "href" : "https://api.spotify.com/v1/search?query=Adrienne&type=track&offset=0&limit=10",
     "items" : [ {
       "album" : {
         "album_type" : "album",
         "artists" : [ {
           "external_urls" : {
-            "spotify" : "https://open.spotify.com/artist/0wNzx85rLgKy0OXYhpCItV"
+            "spotify" : "https://open.spotify.com/artist/5aMmmNxw4vgpc5XC6hK0zp"
           },
-          "href" : "https://api.spotify.com/v1/artists/0wNzx85rLgKy0OXYhpCItV",
-          "id" : "0wNzx85rLgKy0OXYhpCItV",
-          "name" : "Acapulco Tropical",
+          "href" : "https://api.spotify.com/v1/artists/5aMmmNxw4vgpc5XC6hK0zp",
+          "id" : "5aMmmNxw4vgpc5XC6hK0zp",
+          "name" : "The Calling",
           "type" : "artist",
-          "uri" : "spotify:artist:0wNzx85rLgKy0OXYhpCItV"
+          "uri" : "spotify:artist:5aMmmNxw4vgpc5XC6hK0zp"
         } ],
-        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "available_markets" : [ "AD", "AR", "BE", "BG", "BO", "BR", "CA", "CL", "CO", "CR", "CY", "CZ", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GR", "GT", "HK", "HN", "HU", "ID", "IS", "IT", "JP", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
         "external_urls" : {
-          "spotify" : "https://open.spotify.com/album/79qji94EdVAK4ioAGEU0XL"
+          "spotify" : "https://open.spotify.com/album/2Ir1mtE8K61cCNY5WQyKGV"
         },
-        "href" : "https://api.spotify.com/v1/albums/79qji94EdVAK4ioAGEU0XL",
-        "id" : "79qji94EdVAK4ioAGEU0XL",
+        "href" : "https://api.spotify.com/v1/albums/2Ir1mtE8K61cCNY5WQyKGV",
+        "id" : "2Ir1mtE8K61cCNY5WQyKGV",
         "images" : [ {
           "height" : 640,
-          "url" : "https://i.scdn.co/image/bc97983e8111dd72cfcfff263e67e9e9a6cbbca6",
+          "url" : "https://i.scdn.co/image/a8fca9c696bc986dc34db607c315ade6687e47cf",
           "width" : 640
         }, {
           "height" : 300,
-          "url" : "https://i.scdn.co/image/b6014a3ae06999f1ce00c7730d50d01a2c639727",
+          "url" : "https://i.scdn.co/image/b8bed85edb03b0c269d6b22f3ed6ed2f93cdcf4f",
           "width" : 300
         }, {
           "height" : 64,
-          "url" : "https://i.scdn.co/image/608cdcc395a76759df3381d3b187fd84d1755f43",
+          "url" : "https://i.scdn.co/image/5d19a5f55d613651450becf21df8ee40cd3a159f",
           "width" : 64
         } ],
-        "name" : "Brillantes - Acapulco Tropical",
+        "name" : "Camino Palmero",
         "type" : "album",
-        "uri" : "spotify:album:79qji94EdVAK4ioAGEU0XL"
+        "uri" : "spotify:album:2Ir1mtE8K61cCNY5WQyKGV"
       },
       "artists" : [ {
         "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/0wNzx85rLgKy0OXYhpCItV"
+          "spotify" : "https://open.spotify.com/artist/5aMmmNxw4vgpc5XC6hK0zp"
         },
-        "href" : "https://api.spotify.com/v1/artists/0wNzx85rLgKy0OXYhpCItV",
-        "id" : "0wNzx85rLgKy0OXYhpCItV",
-        "name" : "Acapulco Tropical",
+        "href" : "https://api.spotify.com/v1/artists/5aMmmNxw4vgpc5XC6hK0zp",
+        "id" : "5aMmmNxw4vgpc5XC6hK0zp",
+        "name" : "The Calling",
         "type" : "artist",
-        "uri" : "spotify:artist:0wNzx85rLgKy0OXYhpCItV"
+        "uri" : "spotify:artist:5aMmmNxw4vgpc5XC6hK0zp"
+      } ],
+      "available_markets" : [ "AD", "AR", "BE", "BG", "BO", "BR", "CA", "CL", "CO", "CR", "CY", "CZ", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GR", "GT", "HK", "HN", "HU", "ID", "IS", "IT", "JP", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 270333,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USRC10100302"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/0QVf7U1E5qxHHill6UnYtE"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/0QVf7U1E5qxHHill6UnYtE",
+      "id" : "0QVf7U1E5qxHHill6UnYtE",
+      "name" : "Adrienne",
+      "popularity" : 36,
+      "preview_url" : "https://p.scdn.co/mp3-preview/b142a3c76fe2b82411748c142607441896e7d63a?cid=null",
+      "track_number" : 6,
+      "type" : "track",
+      "uri" : "spotify:track:0QVf7U1E5qxHHill6UnYtE"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/7pXu47GoqSYRajmBCjxdD6"
+          },
+          "href" : "https://api.spotify.com/v1/artists/7pXu47GoqSYRajmBCjxdD6",
+          "id" : "7pXu47GoqSYRajmBCjxdD6",
+          "name" : "Vulfpeck",
+          "type" : "artist",
+          "uri" : "spotify:artist:7pXu47GoqSYRajmBCjxdD6"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/0D6mhsFYGQvysqDMeFMCR1"
+        },
+        "href" : "https://api.spotify.com/v1/albums/0D6mhsFYGQvysqDMeFMCR1",
+        "id" : "0D6mhsFYGQvysqDMeFMCR1",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/18ee45f031c5404ff640b1cfeb2ff849bf88e920",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/4632c8bca6ab1505d53d229e99b2d83d0120f7e6",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/dc8c7338afd49ff97ca0e079bc3a2b6b5079b411",
+          "width" : 64
+        } ],
+        "name" : "Vollmilch",
+        "type" : "album",
+        "uri" : "spotify:album:0D6mhsFYGQvysqDMeFMCR1"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/7pXu47GoqSYRajmBCjxdD6"
+        },
+        "href" : "https://api.spotify.com/v1/artists/7pXu47GoqSYRajmBCjxdD6",
+        "id" : "7pXu47GoqSYRajmBCjxdD6",
+        "name" : "Vulfpeck",
+        "type" : "artist",
+        "uri" : "spotify:artist:7pXu47GoqSYRajmBCjxdD6"
       } ],
       "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
       "disc_number" : 1,
-      "duration_ms" : 148066,
+      "duration_ms" : 226548,
       "explicit" : false,
       "external_ids" : {
-        "isrc" : "MXF018200056"
+        "isrc" : "TCABL1377321"
       },
       "external_urls" : {
-        "spotify" : "https://open.spotify.com/track/0GFPdp0Ca7DxhBLkShMM7T"
+        "spotify" : "https://open.spotify.com/track/66xEqq3jsr3p52uOhGM5Nm"
       },
-      "href" : "https://api.spotify.com/v1/tracks/0GFPdp0Ca7DxhBLkShMM7T",
-      "id" : "0GFPdp0Ca7DxhBLkShMM7T",
-      "name" : "Acapulco Tropical",
-      "popularity" : 35,
-      "preview_url" : "https://p.scdn.co/mp3-preview/f2e733391aa453e205fb775d6dac1988b297793a?cid=null",
+      "href" : "https://api.spotify.com/v1/tracks/66xEqq3jsr3p52uOhGM5Nm",
+      "id" : "66xEqq3jsr3p52uOhGM5Nm",
+      "name" : "Adrienne & Adrianne",
+      "popularity" : 39,
+      "preview_url" : "https://p.scdn.co/mp3-preview/a3cae21b9d8379a671336cbe133995c27fe65d9c?cid=null",
+      "track_number" : 3,
+      "type" : "track",
+      "uri" : "spotify:track:66xEqq3jsr3p52uOhGM5Nm"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/47bVt95bvBMpmJFWoyhH0C"
+          },
+          "href" : "https://api.spotify.com/v1/artists/47bVt95bvBMpmJFWoyhH0C",
+          "id" : "47bVt95bvBMpmJFWoyhH0C",
+          "name" : "Xtreme",
+          "type" : "artist",
+          "uri" : "spotify:artist:47bVt95bvBMpmJFWoyhH0C"
+        } ],
+        "available_markets" : [ "US" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/38uPopiCd52CSfpvoJBeCf"
+        },
+        "href" : "https://api.spotify.com/v1/albums/38uPopiCd52CSfpvoJBeCf",
+        "id" : "38uPopiCd52CSfpvoJBeCf",
+        "images" : [ ],
+        "name" : "Haciendo Historia Platinum Edition",
+        "type" : "album",
+        "uri" : "spotify:album:38uPopiCd52CSfpvoJBeCf"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/47bVt95bvBMpmJFWoyhH0C"
+        },
+        "href" : "https://api.spotify.com/v1/artists/47bVt95bvBMpmJFWoyhH0C",
+        "id" : "47bVt95bvBMpmJFWoyhH0C",
+        "name" : "Xtreme",
+        "type" : "artist",
+        "uri" : "spotify:artist:47bVt95bvBMpmJFWoyhH0C"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/5kP1rZbHyBqGEg2NgwRCK4"
+        },
+        "href" : "https://api.spotify.com/v1/artists/5kP1rZbHyBqGEg2NgwRCK4",
+        "id" : "5kP1rZbHyBqGEg2NgwRCK4",
+        "name" : "Adrienne Bailon",
+        "type" : "artist",
+        "uri" : "spotify:artist:5kP1rZbHyBqGEg2NgwRCK4"
+      } ],
+      "available_markets" : [ "US" ],
+      "disc_number" : 1,
+      "duration_ms" : 217773,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USFE50700275"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/3AHhyUZZcKp62F0AjWJgAF"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/3AHhyUZZcKp62F0AjWJgAF",
+      "id" : "3AHhyUZZcKp62F0AjWJgAF",
+      "name" : "No Me Digas Que No",
+      "popularity" : 37,
+      "preview_url" : "https://p.scdn.co/mp3-preview/1def0e224c4b1dd5b73324169a7998309f442b43?cid=null",
       "track_number" : 1,
       "type" : "track",
-      "uri" : "spotify:track:0GFPdp0Ca7DxhBLkShMM7T"
+      "uri" : "spotify:track:3AHhyUZZcKp62F0AjWJgAF"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/5LUIJrE1zjFb0aBmBgoGnc"
+          },
+          "href" : "https://api.spotify.com/v1/artists/5LUIJrE1zjFb0aBmBgoGnc",
+          "id" : "5LUIJrE1zjFb0aBmBgoGnc",
+          "name" : "Adrienne Grayce",
+          "type" : "artist",
+          "uri" : "spotify:artist:5LUIJrE1zjFb0aBmBgoGnc"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/4WznbqqWFEZIqkSzlFhe1Y"
+        },
+        "href" : "https://api.spotify.com/v1/albums/4WznbqqWFEZIqkSzlFhe1Y",
+        "id" : "4WznbqqWFEZIqkSzlFhe1Y",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/333490b7df9b75cb4783c5f6938d32ea83224a6b",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/90d46833f4cb9edb958f98380a64299671ecb471",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/e7f1027684cd62eefad97e2ee8b701a55ca71277",
+          "width" : 64
+        } ],
+        "name" : "Back to Me",
+        "type" : "album",
+        "uri" : "spotify:album:4WznbqqWFEZIqkSzlFhe1Y"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/5LUIJrE1zjFb0aBmBgoGnc"
+        },
+        "href" : "https://api.spotify.com/v1/artists/5LUIJrE1zjFb0aBmBgoGnc",
+        "id" : "5LUIJrE1zjFb0aBmBgoGnc",
+        "name" : "Adrienne Grayce",
+        "type" : "artist",
+        "uri" : "spotify:artist:5LUIJrE1zjFb0aBmBgoGnc"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 194472,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "TCACN1661879"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/3gIjB42K7KXRWUFd4dJbB7"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/3gIjB42K7KXRWUFd4dJbB7",
+      "id" : "3gIjB42K7KXRWUFd4dJbB7",
+      "name" : "My Church",
+      "popularity" : 28,
+      "preview_url" : "https://p.scdn.co/mp3-preview/32eea9ab88c5b23ad29d8c4e32e247acf58451a6?cid=null",
+      "track_number" : 4,
+      "type" : "track",
+      "uri" : "spotify:track:3gIjB42K7KXRWUFd4dJbB7"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/4ntkql3f3ect7NDRUJ7aAY"
+          },
+          "href" : "https://api.spotify.com/v1/artists/4ntkql3f3ect7NDRUJ7aAY",
+          "id" : "4ntkql3f3ect7NDRUJ7aAY",
+          "name" : "The Cheetah Girls",
+          "type" : "artist",
+          "uri" : "spotify:artist:4ntkql3f3ect7NDRUJ7aAY"
+        } ],
+        "available_markets" : [ "CA", "MX", "US" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/6H9FjLFzCgX485reYmS3c3"
+        },
+        "href" : "https://api.spotify.com/v1/albums/6H9FjLFzCgX485reYmS3c3",
+        "id" : "6H9FjLFzCgX485reYmS3c3",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/dc8b6d34c91716b502a148bbe3c619c5075da481",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/1087af88f06e15c430335cbe6cdcb19bf5836396",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/daf60dced41866c1fbc949f318dec0dc453f8af3",
+          "width" : 64
+        } ],
+        "name" : "The Cheetah Girls: One World",
+        "type" : "album",
+        "uri" : "spotify:album:6H9FjLFzCgX485reYmS3c3"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/5kP1rZbHyBqGEg2NgwRCK4"
+        },
+        "href" : "https://api.spotify.com/v1/artists/5kP1rZbHyBqGEg2NgwRCK4",
+        "id" : "5kP1rZbHyBqGEg2NgwRCK4",
+        "name" : "Adrienne Bailon",
+        "type" : "artist",
+        "uri" : "spotify:artist:5kP1rZbHyBqGEg2NgwRCK4"
+      } ],
+      "available_markets" : [ "CA", "MX", "US" ],
+      "disc_number" : 1,
+      "duration_ms" : 190066,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USWD10834400"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/2KsZTjyIP1ncNWD04pEhmE"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/2KsZTjyIP1ncNWD04pEhmE",
+      "id" : "2KsZTjyIP1ncNWD04pEhmE",
+      "name" : "Stand Up",
+      "popularity" : 26,
+      "preview_url" : "https://p.scdn.co/mp3-preview/5e429a1044b7b0477a1942c5c9e6d1ad00cc8a76?cid=null",
+      "track_number" : 5,
+      "type" : "track",
+      "uri" : "spotify:track:2KsZTjyIP1ncNWD04pEhmE"
     }, {
       "album" : {
         "album_type" : "single",
         "artists" : [ {
           "external_urls" : {
-            "spotify" : "https://open.spotify.com/artist/7LTaD4KirzB3MApKKPwpmj"
+            "spotify" : "https://open.spotify.com/artist/265X8FfmqwN1dBSSYYW6ll"
           },
-          "href" : "https://api.spotify.com/v1/artists/7LTaD4KirzB3MApKKPwpmj",
-          "id" : "7LTaD4KirzB3MApKKPwpmj",
-          "name" : "Los 5",
+          "href" : "https://api.spotify.com/v1/artists/265X8FfmqwN1dBSSYYW6ll",
+          "id" : "265X8FfmqwN1dBSSYYW6ll",
+          "name" : "Adrienne Liesching",
           "type" : "artist",
-          "uri" : "spotify:artist:7LTaD4KirzB3MApKKPwpmj"
+          "uri" : "spotify:artist:265X8FfmqwN1dBSSYYW6ll"
+        }, {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/4UW96Vbvr0AOJY3MqzNmoa"
+          },
+          "href" : "https://api.spotify.com/v1/artists/4UW96Vbvr0AOJY3MqzNmoa",
+          "id" : "4UW96Vbvr0AOJY3MqzNmoa",
+          "name" : "Geoff Moore & The Distance",
+          "type" : "artist",
+          "uri" : "spotify:artist:4UW96Vbvr0AOJY3MqzNmoa"
         } ],
-        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
         "external_urls" : {
-          "spotify" : "https://open.spotify.com/album/7lIDrARYMskyUvYDOmhyyG"
+          "spotify" : "https://open.spotify.com/album/32yPO4enMBvu9mMsNqo6hf"
         },
-        "href" : "https://api.spotify.com/v1/albums/7lIDrARYMskyUvYDOmhyyG",
-        "id" : "7lIDrARYMskyUvYDOmhyyG",
+        "href" : "https://api.spotify.com/v1/albums/32yPO4enMBvu9mMsNqo6hf",
+        "id" : "32yPO4enMBvu9mMsNqo6hf",
         "images" : [ {
           "height" : 640,
-          "url" : "https://i.scdn.co/image/20a62e3f52ac39cd868a5baf494efcf9ce841165",
+          "url" : "https://i.scdn.co/image/883e999d4b6220bceb20a865b4996b7c185bbbe3",
           "width" : 640
         }, {
           "height" : 300,
-          "url" : "https://i.scdn.co/image/a748c71b52a44e3af8521698108b3055c0b5c44a",
+          "url" : "https://i.scdn.co/image/52810d51c8d9e0f390ed13324b218ef986c66cbc",
           "width" : 300
         }, {
           "height" : 64,
-          "url" : "https://i.scdn.co/image/d9986b450729336bb20f9c33b4f8d32a5d006e0c",
+          "url" : "https://i.scdn.co/image/ad758e84d6aab9dd0aa4b02e95c4444bacb14457",
           "width" : 64
         } ],
-        "name" : "Acapulco",
+        "name" : "Premiere Performance Plus: In Christ Alone",
         "type" : "album",
-        "uri" : "spotify:album:7lIDrARYMskyUvYDOmhyyG"
+        "uri" : "spotify:album:32yPO4enMBvu9mMsNqo6hf"
       },
       "artists" : [ {
         "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/7LTaD4KirzB3MApKKPwpmj"
+          "spotify" : "https://open.spotify.com/artist/265X8FfmqwN1dBSSYYW6ll"
         },
-        "href" : "https://api.spotify.com/v1/artists/7LTaD4KirzB3MApKKPwpmj",
-        "id" : "7LTaD4KirzB3MApKKPwpmj",
-        "name" : "Los 5",
+        "href" : "https://api.spotify.com/v1/artists/265X8FfmqwN1dBSSYYW6ll",
+        "id" : "265X8FfmqwN1dBSSYYW6ll",
+        "name" : "Adrienne Liesching",
         "type" : "artist",
-        "uri" : "spotify:artist:7LTaD4KirzB3MApKKPwpmj"
+        "uri" : "spotify:artist:265X8FfmqwN1dBSSYYW6ll"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/4UW96Vbvr0AOJY3MqzNmoa"
+        },
+        "href" : "https://api.spotify.com/v1/artists/4UW96Vbvr0AOJY3MqzNmoa",
+        "id" : "4UW96Vbvr0AOJY3MqzNmoa",
+        "name" : "Geoff Moore & The Distance",
+        "type" : "artist",
+        "uri" : "spotify:artist:4UW96Vbvr0AOJY3MqzNmoa"
       } ],
-      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
       "disc_number" : 1,
-      "duration_ms" : 242480,
+      "duration_ms" : 348666,
       "explicit" : false,
       "external_ids" : {
-        "isrc" : "US7CU1700001"
+        "isrc" : "USFF10216007"
       },
       "external_urls" : {
-        "spotify" : "https://open.spotify.com/track/2kOPTkqezo1RvOvCgGJT3K"
+        "spotify" : "https://open.spotify.com/track/2EbVNVEZicKlXM0ZJl6Y8f"
       },
-      "href" : "https://api.spotify.com/v1/tracks/2kOPTkqezo1RvOvCgGJT3K",
-      "id" : "2kOPTkqezo1RvOvCgGJT3K",
-      "name" : "Acapulco",
-      "popularity" : 48,
-      "preview_url" : "https://p.scdn.co/mp3-preview/7b5c31b203da8f8860cd4c507fc4ba2b56c3ba41?cid=null",
-      "track_number" : 1,
+      "href" : "https://api.spotify.com/v1/tracks/2EbVNVEZicKlXM0ZJl6Y8f",
+      "id" : "2EbVNVEZicKlXM0ZJl6Y8f",
+      "name" : "In Christ Alone (My Hope Is Found)",
+      "popularity" : 29,
+      "preview_url" : "https://p.scdn.co/mp3-preview/afda59564fba33b04c17e95b90af88b1f217ad5b?cid=null",
+      "track_number" : 4,
       "type" : "track",
-      "uri" : "spotify:track:2kOPTkqezo1RvOvCgGJT3K"
+      "uri" : "spotify:track:2EbVNVEZicKlXM0ZJl6Y8f"
     }, {
       "album" : {
         "album_type" : "album",
         "artists" : [ {
           "external_urls" : {
-            "spotify" : "https://open.spotify.com/artist/0wNzx85rLgKy0OXYhpCItV"
+            "spotify" : "https://open.spotify.com/artist/3GzWhE2xadJiW8MqRKIVSK"
           },
-          "href" : "https://api.spotify.com/v1/artists/0wNzx85rLgKy0OXYhpCItV",
-          "id" : "0wNzx85rLgKy0OXYhpCItV",
-          "name" : "Acapulco Tropical",
+          "href" : "https://api.spotify.com/v1/artists/3GzWhE2xadJiW8MqRKIVSK",
+          "id" : "3GzWhE2xadJiW8MqRKIVSK",
+          "name" : "Underoath",
           "type" : "artist",
-          "uri" : "spotify:artist:0wNzx85rLgKy0OXYhpCItV"
+          "uri" : "spotify:artist:3GzWhE2xadJiW8MqRKIVSK"
         } ],
-        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
         "external_urls" : {
-          "spotify" : "https://open.spotify.com/album/79qji94EdVAK4ioAGEU0XL"
+          "spotify" : "https://open.spotify.com/album/7jKyYt13XCfVnwMEGyVoAg"
         },
-        "href" : "https://api.spotify.com/v1/albums/79qji94EdVAK4ioAGEU0XL",
-        "id" : "79qji94EdVAK4ioAGEU0XL",
+        "href" : "https://api.spotify.com/v1/albums/7jKyYt13XCfVnwMEGyVoAg",
+        "id" : "7jKyYt13XCfVnwMEGyVoAg",
         "images" : [ {
           "height" : 640,
-          "url" : "https://i.scdn.co/image/bc97983e8111dd72cfcfff263e67e9e9a6cbbca6",
+          "url" : "https://i.scdn.co/image/fd68b1cbf7f36e7e39ab4bc997116841a1b1d3c4",
           "width" : 640
         }, {
           "height" : 300,
-          "url" : "https://i.scdn.co/image/b6014a3ae06999f1ce00c7730d50d01a2c639727",
+          "url" : "https://i.scdn.co/image/162c89a982a8c8ca12c88c4eaed107b38c8376e0",
           "width" : 300
         }, {
           "height" : 64,
-          "url" : "https://i.scdn.co/image/608cdcc395a76759df3381d3b187fd84d1755f43",
+          "url" : "https://i.scdn.co/image/23cb13994fe5ae91d72c593e2067c5d4268513cd",
           "width" : 64
         } ],
-        "name" : "Brillantes - Acapulco Tropical",
+        "name" : "The Changing of Times",
         "type" : "album",
-        "uri" : "spotify:album:79qji94EdVAK4ioAGEU0XL"
+        "uri" : "spotify:album:7jKyYt13XCfVnwMEGyVoAg"
       },
       "artists" : [ {
         "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/0wNzx85rLgKy0OXYhpCItV"
+          "spotify" : "https://open.spotify.com/artist/3GzWhE2xadJiW8MqRKIVSK"
         },
-        "href" : "https://api.spotify.com/v1/artists/0wNzx85rLgKy0OXYhpCItV",
-        "id" : "0wNzx85rLgKy0OXYhpCItV",
-        "name" : "Acapulco Tropical",
+        "href" : "https://api.spotify.com/v1/artists/3GzWhE2xadJiW8MqRKIVSK",
+        "id" : "3GzWhE2xadJiW8MqRKIVSK",
+        "name" : "Underoath",
         "type" : "artist",
-        "uri" : "spotify:artist:0wNzx85rLgKy0OXYhpCItV"
+        "uri" : "spotify:artist:3GzWhE2xadJiW8MqRKIVSK"
       } ],
-      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
       "disc_number" : 1,
-      "duration_ms" : 145973,
+      "duration_ms" : 277640,
       "explicit" : false,
       "external_ids" : {
-        "isrc" : "MXF017200047"
+        "isrc" : "USTN10249307"
       },
       "external_urls" : {
-        "spotify" : "https://open.spotify.com/track/23mVDM5pZflfpxtWolw5j6"
+        "spotify" : "https://open.spotify.com/track/5cReuMm3X3iqU7xdsjczsE"
       },
-      "href" : "https://api.spotify.com/v1/tracks/23mVDM5pZflfpxtWolw5j6",
-      "id" : "23mVDM5pZflfpxtWolw5j6",
-      "name" : "Cangrejito Playero",
-      "popularity" : 38,
-      "preview_url" : "https://p.scdn.co/mp3-preview/55ee790de6e83202b2f30e2d4616982acfdb2a92?cid=null",
-      "track_number" : 7,
-      "type" : "track",
-      "uri" : "spotify:track:23mVDM5pZflfpxtWolw5j6"
-    }, {
-      "album" : {
-        "album_type" : "album",
-        "artists" : [ {
-          "external_urls" : {
-            "spotify" : "https://open.spotify.com/artist/0pgvlX0BkfmeirXTDiNmya"
-          },
-          "href" : "https://api.spotify.com/v1/artists/0pgvlX0BkfmeirXTDiNmya",
-          "id" : "0pgvlX0BkfmeirXTDiNmya",
-          "name" : "Los Inquietos Del Norte",
-          "type" : "artist",
-          "uri" : "spotify:artist:0pgvlX0BkfmeirXTDiNmya"
-        } ],
-        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/album/1ukDfHo1SXjBnzKXxUKx8E"
-        },
-        "href" : "https://api.spotify.com/v1/albums/1ukDfHo1SXjBnzKXxUKx8E",
-        "id" : "1ukDfHo1SXjBnzKXxUKx8E",
-        "images" : [ {
-          "height" : 640,
-          "url" : "https://i.scdn.co/image/ca48c72690ddfaf0a2da6310b3b7be28e1de6619",
-          "width" : 640
-        }, {
-          "height" : 300,
-          "url" : "https://i.scdn.co/image/e2144f633ba2d546eddada521da92c7ed7207632",
-          "width" : 300
-        }, {
-          "height" : 64,
-          "url" : "https://i.scdn.co/image/120e689ea0f75b2ea51b7d2a8f252bc127fda935",
-          "width" : 64
-        } ],
-        "name" : "De Noche Enfiestado y la Vida la Vida a Lo Que da (Version de Lujo)",
-        "type" : "album",
-        "uri" : "spotify:album:1ukDfHo1SXjBnzKXxUKx8E"
-      },
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/0pgvlX0BkfmeirXTDiNmya"
-        },
-        "href" : "https://api.spotify.com/v1/artists/0pgvlX0BkfmeirXTDiNmya",
-        "id" : "0pgvlX0BkfmeirXTDiNmya",
-        "name" : "Los Inquietos Del Norte",
-        "type" : "artist",
-        "uri" : "spotify:artist:0pgvlX0BkfmeirXTDiNmya"
-      } ],
-      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
-      "disc_number" : 1,
-      "duration_ms" : 139337,
-      "explicit" : false,
-      "external_ids" : {
-        "isrc" : "TCACT1630426"
-      },
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/track/2pxIYR2XAo5JGx05wasIZG"
-      },
-      "href" : "https://api.spotify.com/v1/tracks/2pxIYR2XAo5JGx05wasIZG",
-      "id" : "2pxIYR2XAo5JGx05wasIZG",
-      "name" : "Mansion de Acapulco",
-      "popularity" : 38,
-      "preview_url" : "https://p.scdn.co/mp3-preview/5a111f408b3e7f4ae67697494ce23ae67fcdc95a?cid=null",
-      "track_number" : 12,
-      "type" : "track",
-      "uri" : "spotify:track:2pxIYR2XAo5JGx05wasIZG"
-    }, {
-      "album" : {
-        "album_type" : "album",
-        "artists" : [ {
-          "external_urls" : {
-            "spotify" : "https://open.spotify.com/artist/7fIvjotigTGWqjIz6EP1i4"
-          },
-          "href" : "https://api.spotify.com/v1/artists/7fIvjotigTGWqjIz6EP1i4",
-          "id" : "7fIvjotigTGWqjIz6EP1i4",
-          "name" : "Four Tops",
-          "type" : "artist",
-          "uri" : "spotify:artist:7fIvjotigTGWqjIz6EP1i4"
-        } ],
-        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/album/1pbPkhuest1I4RGpz3rWmC"
-        },
-        "href" : "https://api.spotify.com/v1/albums/1pbPkhuest1I4RGpz3rWmC",
-        "id" : "1pbPkhuest1I4RGpz3rWmC",
-        "images" : [ {
-          "height" : 626,
-          "url" : "https://i.scdn.co/image/9df3c2f4dae4786db0cd0b575a7777fd4eb87c71",
-          "width" : 640
-        }, {
-          "height" : 293,
-          "url" : "https://i.scdn.co/image/73c300f68602740950347cd23101efc3f094f349",
-          "width" : 300
-        }, {
-          "height" : 63,
-          "url" : "https://i.scdn.co/image/3c6245eaa204d8f0b3cd9d9453b6cc679800dc32",
-          "width" : 64
-        } ],
-        "name" : "Indestructible",
-        "type" : "album",
-        "uri" : "spotify:album:1pbPkhuest1I4RGpz3rWmC"
-      },
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/7fIvjotigTGWqjIz6EP1i4"
-        },
-        "href" : "https://api.spotify.com/v1/artists/7fIvjotigTGWqjIz6EP1i4",
-        "id" : "7fIvjotigTGWqjIz6EP1i4",
-        "name" : "Four Tops",
-        "type" : "artist",
-        "uri" : "spotify:artist:7fIvjotigTGWqjIz6EP1i4"
-      } ],
-      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
-      "disc_number" : 1,
-      "duration_ms" : 274066,
-      "explicit" : false,
-      "external_ids" : {
-        "isrc" : "USAR18800003"
-      },
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/track/7gfAYm7X5HMSuKcO4dy8Wi"
-      },
-      "href" : "https://api.spotify.com/v1/tracks/7gfAYm7X5HMSuKcO4dy8Wi",
-      "id" : "7gfAYm7X5HMSuKcO4dy8Wi",
-      "name" : "Loco in Acapulco",
-      "popularity" : 48,
-      "preview_url" : "https://p.scdn.co/mp3-preview/afaaa4c2feac6264a4931148195d0d95fc9f98ca?cid=null",
-      "track_number" : 6,
-      "type" : "track",
-      "uri" : "spotify:track:7gfAYm7X5HMSuKcO4dy8Wi"
-    }, {
-      "album" : {
-        "album_type" : "album",
-        "artists" : [ {
-          "external_urls" : {
-            "spotify" : "https://open.spotify.com/artist/0wNzx85rLgKy0OXYhpCItV"
-          },
-          "href" : "https://api.spotify.com/v1/artists/0wNzx85rLgKy0OXYhpCItV",
-          "id" : "0wNzx85rLgKy0OXYhpCItV",
-          "name" : "Acapulco Tropical",
-          "type" : "artist",
-          "uri" : "spotify:artist:0wNzx85rLgKy0OXYhpCItV"
-        } ],
-        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/album/79qji94EdVAK4ioAGEU0XL"
-        },
-        "href" : "https://api.spotify.com/v1/albums/79qji94EdVAK4ioAGEU0XL",
-        "id" : "79qji94EdVAK4ioAGEU0XL",
-        "images" : [ {
-          "height" : 640,
-          "url" : "https://i.scdn.co/image/bc97983e8111dd72cfcfff263e67e9e9a6cbbca6",
-          "width" : 640
-        }, {
-          "height" : 300,
-          "url" : "https://i.scdn.co/image/b6014a3ae06999f1ce00c7730d50d01a2c639727",
-          "width" : 300
-        }, {
-          "height" : 64,
-          "url" : "https://i.scdn.co/image/608cdcc395a76759df3381d3b187fd84d1755f43",
-          "width" : 64
-        } ],
-        "name" : "Brillantes - Acapulco Tropical",
-        "type" : "album",
-        "uri" : "spotify:album:79qji94EdVAK4ioAGEU0XL"
-      },
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/0wNzx85rLgKy0OXYhpCItV"
-        },
-        "href" : "https://api.spotify.com/v1/artists/0wNzx85rLgKy0OXYhpCItV",
-        "id" : "0wNzx85rLgKy0OXYhpCItV",
-        "name" : "Acapulco Tropical",
-        "type" : "artist",
-        "uri" : "spotify:artist:0wNzx85rLgKy0OXYhpCItV"
-      } ],
-      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
-      "disc_number" : 1,
-      "duration_ms" : 133240,
-      "explicit" : false,
-      "external_ids" : {
-        "isrc" : "MXF018200059"
-      },
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/track/711ZAqrYsBFwLYQCtWD0ag"
-      },
-      "href" : "https://api.spotify.com/v1/tracks/711ZAqrYsBFwLYQCtWD0ag",
-      "id" : "711ZAqrYsBFwLYQCtWD0ag",
-      "name" : "Mar Sagrado",
-      "popularity" : 33,
-      "preview_url" : "https://p.scdn.co/mp3-preview/9ec34fc22a9d49c47d6f82b907749d2fd9d2bb74?cid=null",
-      "track_number" : 8,
-      "type" : "track",
-      "uri" : "spotify:track:711ZAqrYsBFwLYQCtWD0ag"
-    }, {
-      "album" : {
-        "album_type" : "album",
-        "artists" : [ {
-          "external_urls" : {
-            "spotify" : "https://open.spotify.com/artist/0wNzx85rLgKy0OXYhpCItV"
-          },
-          "href" : "https://api.spotify.com/v1/artists/0wNzx85rLgKy0OXYhpCItV",
-          "id" : "0wNzx85rLgKy0OXYhpCItV",
-          "name" : "Acapulco Tropical",
-          "type" : "artist",
-          "uri" : "spotify:artist:0wNzx85rLgKy0OXYhpCItV"
-        } ],
-        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/album/79qji94EdVAK4ioAGEU0XL"
-        },
-        "href" : "https://api.spotify.com/v1/albums/79qji94EdVAK4ioAGEU0XL",
-        "id" : "79qji94EdVAK4ioAGEU0XL",
-        "images" : [ {
-          "height" : 640,
-          "url" : "https://i.scdn.co/image/bc97983e8111dd72cfcfff263e67e9e9a6cbbca6",
-          "width" : 640
-        }, {
-          "height" : 300,
-          "url" : "https://i.scdn.co/image/b6014a3ae06999f1ce00c7730d50d01a2c639727",
-          "width" : 300
-        }, {
-          "height" : 64,
-          "url" : "https://i.scdn.co/image/608cdcc395a76759df3381d3b187fd84d1755f43",
-          "width" : 64
-        } ],
-        "name" : "Brillantes - Acapulco Tropical",
-        "type" : "album",
-        "uri" : "spotify:album:79qji94EdVAK4ioAGEU0XL"
-      },
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/0wNzx85rLgKy0OXYhpCItV"
-        },
-        "href" : "https://api.spotify.com/v1/artists/0wNzx85rLgKy0OXYhpCItV",
-        "id" : "0wNzx85rLgKy0OXYhpCItV",
-        "name" : "Acapulco Tropical",
-        "type" : "artist",
-        "uri" : "spotify:artist:0wNzx85rLgKy0OXYhpCItV"
-      } ],
-      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
-      "disc_number" : 1,
-      "duration_ms" : 160080,
-      "explicit" : false,
-      "external_ids" : {
-        "isrc" : "MXF017300028"
-      },
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/track/4GNhmnL5x6nZUTOesJk9DB"
-      },
-      "href" : "https://api.spotify.com/v1/tracks/4GNhmnL5x6nZUTOesJk9DB",
-      "id" : "4GNhmnL5x6nZUTOesJk9DB",
-      "name" : "Candela Verde",
-      "popularity" : 32,
-      "preview_url" : "https://p.scdn.co/mp3-preview/ba8d5b86f7cf48a0672e4fdba2642304de849b15?cid=null",
-      "track_number" : 5,
-      "type" : "track",
-      "uri" : "spotify:track:4GNhmnL5x6nZUTOesJk9DB"
-    }, {
-      "album" : {
-        "album_type" : "album",
-        "artists" : [ {
-          "external_urls" : {
-            "spotify" : "https://open.spotify.com/artist/0wNzx85rLgKy0OXYhpCItV"
-          },
-          "href" : "https://api.spotify.com/v1/artists/0wNzx85rLgKy0OXYhpCItV",
-          "id" : "0wNzx85rLgKy0OXYhpCItV",
-          "name" : "Acapulco Tropical",
-          "type" : "artist",
-          "uri" : "spotify:artist:0wNzx85rLgKy0OXYhpCItV"
-        } ],
-        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/album/79qji94EdVAK4ioAGEU0XL"
-        },
-        "href" : "https://api.spotify.com/v1/albums/79qji94EdVAK4ioAGEU0XL",
-        "id" : "79qji94EdVAK4ioAGEU0XL",
-        "images" : [ {
-          "height" : 640,
-          "url" : "https://i.scdn.co/image/bc97983e8111dd72cfcfff263e67e9e9a6cbbca6",
-          "width" : 640
-        }, {
-          "height" : 300,
-          "url" : "https://i.scdn.co/image/b6014a3ae06999f1ce00c7730d50d01a2c639727",
-          "width" : 300
-        }, {
-          "height" : 64,
-          "url" : "https://i.scdn.co/image/608cdcc395a76759df3381d3b187fd84d1755f43",
-          "width" : 64
-        } ],
-        "name" : "Brillantes - Acapulco Tropical",
-        "type" : "album",
-        "uri" : "spotify:album:79qji94EdVAK4ioAGEU0XL"
-      },
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/0wNzx85rLgKy0OXYhpCItV"
-        },
-        "href" : "https://api.spotify.com/v1/artists/0wNzx85rLgKy0OXYhpCItV",
-        "id" : "0wNzx85rLgKy0OXYhpCItV",
-        "name" : "Acapulco Tropical",
-        "type" : "artist",
-        "uri" : "spotify:artist:0wNzx85rLgKy0OXYhpCItV"
-      } ],
-      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
-      "disc_number" : 1,
-      "duration_ms" : 120773,
-      "explicit" : false,
-      "external_ids" : {
-        "isrc" : "MXF017100069"
-      },
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/track/7Cr5yJPEPA2X3XdOjO5RP8"
-      },
-      "href" : "https://api.spotify.com/v1/tracks/7Cr5yJPEPA2X3XdOjO5RP8",
-      "id" : "7Cr5yJPEPA2X3XdOjO5RP8",
-      "name" : "La Novia Fea",
-      "popularity" : 31,
-      "preview_url" : "https://p.scdn.co/mp3-preview/342664facc2aa985534c713cd19713052c979b1d?cid=null",
+      "href" : "https://api.spotify.com/v1/tracks/5cReuMm3X3iqU7xdsjczsE",
+      "id" : "5cReuMm3X3iqU7xdsjczsE",
+      "name" : "A Message for Adrienne",
+      "popularity" : 25,
+      "preview_url" : "https://p.scdn.co/mp3-preview/3917cabcc4ce80888a499549646ceace4e57922b?cid=null",
       "track_number" : 3,
       "type" : "track",
-      "uri" : "spotify:track:7Cr5yJPEPA2X3XdOjO5RP8"
+      "uri" : "spotify:track:5cReuMm3X3iqU7xdsjczsE"
     }, {
       "album" : {
-        "album_type" : "album",
+        "album_type" : "single",
         "artists" : [ {
           "external_urls" : {
-            "spotify" : "https://open.spotify.com/artist/49gaZqfow2v8EEQmjGyEIw"
+            "spotify" : "https://open.spotify.com/artist/5LUIJrE1zjFb0aBmBgoGnc"
           },
-          "href" : "https://api.spotify.com/v1/artists/49gaZqfow2v8EEQmjGyEIw",
-          "id" : "49gaZqfow2v8EEQmjGyEIw",
-          "name" : "Todd Terje",
+          "href" : "https://api.spotify.com/v1/artists/5LUIJrE1zjFb0aBmBgoGnc",
+          "id" : "5LUIJrE1zjFb0aBmBgoGnc",
+          "name" : "Adrienne Grayce",
           "type" : "artist",
-          "uri" : "spotify:artist:49gaZqfow2v8EEQmjGyEIw"
-        } ],
-        "available_markets" : [ "CA", "MX", "US" ],
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/album/0O5AKenebX8hZAsezqYiKv"
-        },
-        "href" : "https://api.spotify.com/v1/albums/0O5AKenebX8hZAsezqYiKv",
-        "id" : "0O5AKenebX8hZAsezqYiKv",
-        "images" : [ {
-          "height" : 640,
-          "url" : "https://i.scdn.co/image/e0b7fab44277fcd531e421fd1f041bce9c13880b",
-          "width" : 640
-        }, {
-          "height" : 300,
-          "url" : "https://i.scdn.co/image/52d85ba91f50a00d61d3965a9adc34a124334ba9",
-          "width" : 300
-        }, {
-          "height" : 64,
-          "url" : "https://i.scdn.co/image/88523b41f1d6e118eccb096c91aea57966710ee4",
-          "width" : 64
-        } ],
-        "name" : "It's Album Time",
-        "type" : "album",
-        "uri" : "spotify:album:0O5AKenebX8hZAsezqYiKv"
-      },
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/49gaZqfow2v8EEQmjGyEIw"
-        },
-        "href" : "https://api.spotify.com/v1/artists/49gaZqfow2v8EEQmjGyEIw",
-        "id" : "49gaZqfow2v8EEQmjGyEIw",
-        "name" : "Todd Terje",
-        "type" : "artist",
-        "uri" : "spotify:artist:49gaZqfow2v8EEQmjGyEIw"
-      } ],
-      "available_markets" : [ "CA", "MX", "US" ],
-      "disc_number" : 1,
-      "duration_ms" : 275173,
-      "explicit" : false,
-      "external_ids" : {
-        "isrc" : "NOOLS1401030"
-      },
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/track/7wk1BKY8fIJ5ECha9Vpo13"
-      },
-      "href" : "https://api.spotify.com/v1/tracks/7wk1BKY8fIJ5ECha9Vpo13",
-      "id" : "7wk1BKY8fIJ5ECha9Vpo13",
-      "name" : "Preben Goes To Acapulco",
-      "popularity" : 33,
-      "preview_url" : "https://p.scdn.co/mp3-preview/b3757ec1ba913ec2b77b8c6d29b42d028e5d40ed?cid=null",
-      "track_number" : 3,
-      "type" : "track",
-      "uri" : "spotify:track:7wk1BKY8fIJ5ECha9Vpo13"
-    }, {
-      "album" : {
-        "album_type" : "album",
-        "artists" : [ {
-          "external_urls" : {
-            "spotify" : "https://open.spotify.com/artist/0wNzx85rLgKy0OXYhpCItV"
-          },
-          "href" : "https://api.spotify.com/v1/artists/0wNzx85rLgKy0OXYhpCItV",
-          "id" : "0wNzx85rLgKy0OXYhpCItV",
-          "name" : "Acapulco Tropical",
-          "type" : "artist",
-          "uri" : "spotify:artist:0wNzx85rLgKy0OXYhpCItV"
+          "uri" : "spotify:artist:5LUIJrE1zjFb0aBmBgoGnc"
         } ],
         "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
         "external_urls" : {
-          "spotify" : "https://open.spotify.com/album/7bO5E42ANHTYZqJb5Kn0ef"
+          "spotify" : "https://open.spotify.com/album/0DIo9zoOkTHrcANvQBDuGp"
         },
-        "href" : "https://api.spotify.com/v1/albums/7bO5E42ANHTYZqJb5Kn0ef",
-        "id" : "7bO5E42ANHTYZqJb5Kn0ef",
+        "href" : "https://api.spotify.com/v1/albums/0DIo9zoOkTHrcANvQBDuGp",
+        "id" : "0DIo9zoOkTHrcANvQBDuGp",
         "images" : [ {
           "height" : 640,
-          "url" : "https://i.scdn.co/image/7c8e24476f7a04bcdc24a91307e93feb28d79f32",
+          "url" : "https://i.scdn.co/image/b38e044a0fdee600363e4619e8766bce2fa8daec",
           "width" : 640
         }, {
           "height" : 300,
-          "url" : "https://i.scdn.co/image/195b5e6b2ffb2995f2c1567de7da0b90a6628e30",
+          "url" : "https://i.scdn.co/image/daf43395d0e01946a72ed3665c2dd90d5844cc39",
           "width" : 300
         }, {
           "height" : 64,
-          "url" : "https://i.scdn.co/image/2d369ed79be2c7c68246e367611eb6a1b6fa6024",
+          "url" : "https://i.scdn.co/image/33d63fc3c8ada274c4496ff121494c4f8b2f18ca",
           "width" : 64
         } ],
-        "name" : "Ritmo de Acapulco Tropical",
+        "name" : "Dancing in the Sky",
         "type" : "album",
-        "uri" : "spotify:album:7bO5E42ANHTYZqJb5Kn0ef"
+        "uri" : "spotify:album:0DIo9zoOkTHrcANvQBDuGp"
       },
       "artists" : [ {
         "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/0wNzx85rLgKy0OXYhpCItV"
+          "spotify" : "https://open.spotify.com/artist/5LUIJrE1zjFb0aBmBgoGnc"
         },
-        "href" : "https://api.spotify.com/v1/artists/0wNzx85rLgKy0OXYhpCItV",
-        "id" : "0wNzx85rLgKy0OXYhpCItV",
-        "name" : "Acapulco Tropical",
+        "href" : "https://api.spotify.com/v1/artists/5LUIJrE1zjFb0aBmBgoGnc",
+        "id" : "5LUIJrE1zjFb0aBmBgoGnc",
+        "name" : "Adrienne Grayce",
         "type" : "artist",
-        "uri" : "spotify:artist:0wNzx85rLgKy0OXYhpCItV"
+        "uri" : "spotify:artist:5LUIJrE1zjFb0aBmBgoGnc"
       } ],
       "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
       "disc_number" : 1,
-      "duration_ms" : 125160,
+      "duration_ms" : 213699,
       "explicit" : false,
       "external_ids" : {
-        "isrc" : "MXF018600570"
+        "isrc" : "TCACJ1562073"
       },
       "external_urls" : {
-        "spotify" : "https://open.spotify.com/track/5b5DTCuXJSfw1DC1DsusAH"
+        "spotify" : "https://open.spotify.com/track/7mU7eY93DpBgJzcTSrr6Md"
       },
-      "href" : "https://api.spotify.com/v1/tracks/5b5DTCuXJSfw1DC1DsusAH",
-      "id" : "5b5DTCuXJSfw1DC1DsusAH",
-      "name" : "Loco Enamorado",
-      "popularity" : 31,
-      "preview_url" : "https://p.scdn.co/mp3-preview/034a32eca918b1c70b1f34a6ef4b28cbadad46aa?cid=null",
+      "href" : "https://api.spotify.com/v1/tracks/7mU7eY93DpBgJzcTSrr6Md",
+      "id" : "7mU7eY93DpBgJzcTSrr6Md",
+      "name" : "Dancing in the Sky",
+      "popularity" : 27,
+      "preview_url" : "https://p.scdn.co/mp3-preview/ff8a2599a36f78c32f96145d6c3ade4ecad89d46?cid=null",
       "track_number" : 1,
       "type" : "track",
-      "uri" : "spotify:track:5b5DTCuXJSfw1DC1DsusAH"
+      "uri" : "spotify:track:7mU7eY93DpBgJzcTSrr6Md"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/1Ulz91s7Ld108HmeidLpNY"
+          },
+          "href" : "https://api.spotify.com/v1/artists/1Ulz91s7Ld108HmeidLpNY",
+          "id" : "1Ulz91s7Ld108HmeidLpNY",
+          "name" : "Tropicana d'Haïti",
+          "type" : "artist",
+          "uri" : "spotify:artist:1Ulz91s7Ld108HmeidLpNY"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/4GYIhzU8DLOmBKVInQSHUw"
+        },
+        "href" : "https://api.spotify.com/v1/albums/4GYIhzU8DLOmBKVInQSHUw",
+        "id" : "4GYIhzU8DLOmBKVInQSHUw",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/1147e9000584ca0088657de909cf3331052f01e7",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/85226522e4c8f6ccddb354c1202868cb3c4bb592",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/49d715bd2a731b59b987b1b9eca40eebf993eb1d",
+          "width" : 64
+        } ],
+        "name" : "Tropicana d'Haïti : 40ème anniversaire, vol. 1",
+        "type" : "album",
+        "uri" : "spotify:album:4GYIhzU8DLOmBKVInQSHUw"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1Ulz91s7Ld108HmeidLpNY"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1Ulz91s7Ld108HmeidLpNY",
+        "id" : "1Ulz91s7Ld108HmeidLpNY",
+        "name" : "Tropicana d'Haïti",
+        "type" : "artist",
+        "uri" : "spotify:artist:1Ulz91s7Ld108HmeidLpNY"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 421920,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "FR6V80289097"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/64AOdTBjLhDa2T8JODIHnL"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/64AOdTBjLhDa2T8JODIHnL",
+      "id" : "64AOdTBjLhDa2T8JODIHnL",
+      "name" : "Adrienne",
+      "popularity" : 16,
+      "preview_url" : "https://p.scdn.co/mp3-preview/3b7ad7909e922d48fa508c4171a005d5ad2a89cc?cid=null",
+      "track_number" : 2,
+      "type" : "track",
+      "uri" : "spotify:track:64AOdTBjLhDa2T8JODIHnL"
+    }, {
+      "album" : {
+        "album_type" : "single",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/5LUIJrE1zjFb0aBmBgoGnc"
+          },
+          "href" : "https://api.spotify.com/v1/artists/5LUIJrE1zjFb0aBmBgoGnc",
+          "id" : "5LUIJrE1zjFb0aBmBgoGnc",
+          "name" : "Adrienne Grayce",
+          "type" : "artist",
+          "uri" : "spotify:artist:5LUIJrE1zjFb0aBmBgoGnc"
+        } ],
+        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/4wwdOuVxMjXaiQOBVyCvHf"
+        },
+        "href" : "https://api.spotify.com/v1/albums/4wwdOuVxMjXaiQOBVyCvHf",
+        "id" : "4wwdOuVxMjXaiQOBVyCvHf",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/2b27639830a15881deb56e3d3a944cae9b50de69",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/ebe4757c34be19108e94d25e20c9b7fe34355ae7",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/2bcbc279c6e046606e957ac1735e0b1bddf44342",
+          "width" : 64
+        } ],
+        "name" : "Jealous of the Angels",
+        "type" : "album",
+        "uri" : "spotify:album:4wwdOuVxMjXaiQOBVyCvHf"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/5LUIJrE1zjFb0aBmBgoGnc"
+        },
+        "href" : "https://api.spotify.com/v1/artists/5LUIJrE1zjFb0aBmBgoGnc",
+        "id" : "5LUIJrE1zjFb0aBmBgoGnc",
+        "name" : "Adrienne Grayce",
+        "type" : "artist",
+        "uri" : "spotify:artist:5LUIJrE1zjFb0aBmBgoGnc"
+      } ],
+      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
+      "disc_number" : 1,
+      "duration_ms" : 256800,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "TCACS1678051"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/65QgcKodKLtYya8ISYoObZ"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/65QgcKodKLtYya8ISYoObZ",
+      "id" : "65QgcKodKLtYya8ISYoObZ",
+      "name" : "Jealous of the Angels",
+      "popularity" : 19,
+      "preview_url" : "https://p.scdn.co/mp3-preview/598409e6584fb4c89652c885bbf891d801fd86d6?cid=null",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:65QgcKodKLtYya8ISYoObZ"
     } ],
     "limit" : 10,
-    "next" : "https://api.spotify.com/v1/search?query=Acapulco&type=track&offset=10&limit=10",
+    "next" : "https://api.spotify.com/v1/search?query=Adrienne&type=track&offset=10&limit=10",
     "offset" : 0,
     "previous" : null,
-    "total" : 4176
+    "total" : 2014
   }
 }

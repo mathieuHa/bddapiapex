@@ -1,4 +1,3 @@
-import com.opencsv.CSVWriter;
 
 import javax.swing.*;
 import java.beans.PropertyChangeEvent;
@@ -11,29 +10,25 @@ public class Main {
     private static Scanner scanner = null;
     private static JFrame jf = null;
     static JProgressBar progressBar = null;
+    static PrintWriter pw;
+
 
     public static void main(String[] args) {
         progressBar = new JProgressBar();
-        progressBar.setMaximum(50);
+        progressBar.setMaximum(1000);
         jf = new JFrame();
         jf.add(progressBar);
         jf.setSize(500,80);
         jf.setVisible(true);
-        String csv = "data.csv";
         try {
-            CSVWriter writer = new CSVWriter(new FileWriter("file.csv"), '\t');
-            // feed in your array (or convert your data to an array)
-            String[] entries = "first#second#third".split("#");
-            writer.writeNext(entries);
-            writer.close();
-
-            //close the writer
-        } catch (IOException e) {
+            pw = new PrintWriter(new File("test.csv"));
+        } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
+        String csv = "data.csv";
         SwingWorker<Void, Void> sw = new SwingWorker<Void,Void>(){
             private String s;
-            AddJson ad = new AddJson();
+            AddJson ad = new AddJson(pw);
             @Override
             protected Void doInBackground() throws Exception {
                 // TODO Auto-generated method stub
@@ -48,7 +43,7 @@ public class Main {
                     e.printStackTrace();
                 }
 
-                for (int i = 1; i<10; i++){
+                for (int i = 1; i<1000; i++){
                     s = scanner.nextLine();
                     //ad.addVideo(i);
                     //ad.addBook(s);
@@ -61,6 +56,7 @@ public class Main {
             @Override
             protected void done() {
                 jf.dispose();
+                pw.close();
             }
 
         };
