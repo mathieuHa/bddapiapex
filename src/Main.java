@@ -1,8 +1,8 @@
-
 import javax.swing.*;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 import java.io.*;
+import java.text.Normalizer;
 import java.util.Scanner;
 
 public class Main {
@@ -11,14 +11,15 @@ public class Main {
     private static JFrame jf = null;
     static JProgressBar progressBar = null;
     static PrintWriter pw;
-
+    static int lim = 1000;
 
     public static void main(String[] args) {
         progressBar = new JProgressBar();
-        progressBar.setMaximum(1000);
+
+        progressBar.setMaximum(lim);
         jf = new JFrame();
         jf.add(progressBar);
-        jf.setSize(500,80);
+        jf.setSize(1000,80);
         jf.setVisible(true);
         try {
             pw = new PrintWriter(new File("test.csv"));
@@ -43,11 +44,19 @@ public class Main {
                     e.printStackTrace();
                 }
 
-                for (int i = 1; i<1000; i++){
+                for (int i = 1; i<lim; i++){
                     s = scanner.nextLine();
+                    s = Normalizer.normalize(s, Normalizer.Form.NFD);
+                    s = s.replaceAll("[\\p{InCombiningDiacriticalMarks}]", "");
+                    s = s.toLowerCase();
+                    try {
+                        Thread.sleep(300);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
                     //ad.addVideo(i);
-                    //ad.addBook(s);
-                    ad.addMusic(s);
+                    ad.addBook(s);
+                    //ad.addMusic(s);
                     setProgress(i);
                 }
 

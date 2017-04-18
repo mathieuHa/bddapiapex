@@ -1,666 +1,977 @@
 {
-  "tracks" : {
-    "href" : "https://api.spotify.com/v1/search?query=Adrienne&type=track&offset=0&limit=10",
-    "items" : [ {
-      "album" : {
-        "album_type" : "album",
-        "artists" : [ {
-          "external_urls" : {
-            "spotify" : "https://open.spotify.com/artist/5aMmmNxw4vgpc5XC6hK0zp"
-          },
-          "href" : "https://api.spotify.com/v1/artists/5aMmmNxw4vgpc5XC6hK0zp",
-          "id" : "5aMmmNxw4vgpc5XC6hK0zp",
-          "name" : "The Calling",
-          "type" : "artist",
-          "uri" : "spotify:artist:5aMmmNxw4vgpc5XC6hK0zp"
-        } ],
-        "available_markets" : [ "AD", "AR", "BE", "BG", "BO", "BR", "CA", "CL", "CO", "CR", "CY", "CZ", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GR", "GT", "HK", "HN", "HU", "ID", "IS", "IT", "JP", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/album/2Ir1mtE8K61cCNY5WQyKGV"
-        },
-        "href" : "https://api.spotify.com/v1/albums/2Ir1mtE8K61cCNY5WQyKGV",
-        "id" : "2Ir1mtE8K61cCNY5WQyKGV",
-        "images" : [ {
-          "height" : 640,
-          "url" : "https://i.scdn.co/image/a8fca9c696bc986dc34db607c315ade6687e47cf",
-          "width" : 640
-        }, {
-          "height" : 300,
-          "url" : "https://i.scdn.co/image/b8bed85edb03b0c269d6b22f3ed6ed2f93cdcf4f",
-          "width" : 300
-        }, {
-          "height" : 64,
-          "url" : "https://i.scdn.co/image/5d19a5f55d613651450becf21df8ee40cd3a159f",
-          "width" : 64
-        } ],
-        "name" : "Camino Palmero",
-        "type" : "album",
-        "uri" : "spotify:album:2Ir1mtE8K61cCNY5WQyKGV"
+ "kind": "books#volumes",
+ "totalItems": 1733,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "8KvqDQAAQBAJ",
+   "etag": "y7w1eaC1ND0",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/8KvqDQAAQBAJ",
+   "volumeInfo": {
+    "title": "Le livre de la faim et de la soif",
+    "authors": [
+     "Camille de Toledo"
+    ],
+    "publisher": "Editions Gallimard",
+    "publishedDate": "2017-02-09T00:00:00+01:00",
+    "description": "Le livre de la faim et de la soif est une chevauchée effrénée dans les contrées du conte et du roman picaresque. Le personnage central est le livre lui-même. Alter ego du narrateur, il entame de façon autonome des récits qu’il ne prend pas le temps d'achever, en quête d’une totalité irréalisable. Chaque fois, le livre s’aperçoit qu’en nommant les choses il les détruit et doit repartir à la recherche d’une autre réalité. Sa folle cavale nous emporte dans de nombreux pays, réels ou imaginaires, dans diverses époques, dans des langues différentes, car le livre n’est jamais rassasié. Ses récits empruntent leurs univers au western, au roman noir, au Talmud ou au Coran, aux poèmes de Michaux ou au roman de Cervantès, à Borges ou à Rabelais... Voyage entre les mondes, Le livre de la faim et de la soif embrasse ce XXIe siècle débutant de colères et de tremblements. Il s’agit, pour Camille de Toledo, d’allier dans une fiction labyrinthique la pensée et le rêve, la philosophie et la poésie, de fondre tous les possibles dans une narration sans limites. Une aventure littéraire exceptionnelle, vibrant à chaque page d’une joie d’inventer et d’une vitalité impressionnantes.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9782072699481"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "2072699487"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 384,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.1.1.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=8KvqDQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=8KvqDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "fr",
+    "previewLink": "http://books.google.fr/books?id=8KvqDQAAQBAJ&pg=PT82&dq=aboiement&hl=&as_pt=BOOKS&cd=1&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=8KvqDQAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-8KvqDQAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "FR",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 16.99,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 16.99,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=8KvqDQAAQBAJ&rdid=book-8KvqDQAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.699E7,
+       "currencyCode": "EUR"
       },
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/5aMmmNxw4vgpc5XC6hK0zp"
-        },
-        "href" : "https://api.spotify.com/v1/artists/5aMmmNxw4vgpc5XC6hK0zp",
-        "id" : "5aMmmNxw4vgpc5XC6hK0zp",
-        "name" : "The Calling",
-        "type" : "artist",
-        "uri" : "spotify:artist:5aMmmNxw4vgpc5XC6hK0zp"
-      } ],
-      "available_markets" : [ "AD", "AR", "BE", "BG", "BO", "BR", "CA", "CL", "CO", "CR", "CY", "CZ", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GR", "GT", "HK", "HN", "HU", "ID", "IS", "IT", "JP", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
-      "disc_number" : 1,
-      "duration_ms" : 270333,
-      "explicit" : false,
-      "external_ids" : {
-        "isrc" : "USRC10100302"
+      "retailPrice": {
+       "amountInMicros": 1.699E7,
+       "currencyCode": "EUR"
       },
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/track/0QVf7U1E5qxHHill6UnYtE"
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "FR",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.fr/books/download/Le_livre_de_la_faim_et_de_la_soif-sample-epub.acsm?id=8KvqDQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.fr/books/download/Le_livre_de_la_faim_et_de_la_soif-sample-pdf.acsm?id=8KvqDQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://books.google.fr/books/reader?id=8KvqDQAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Des enfants qui voulaient apprendre à se battre, qui désiraient connaître les \u003cbr\u003e\nrudiments de l&#39;\u003cb\u003eaboiement\u003c/b\u003e universel. On y accourut apparemment des quatre \u003cbr\u003e\ncoins d&#39;Europe. Sur le marché aux puces de Smerdiakovo, maintenant, sur les \u003cbr\u003e\nsacs&nbsp;..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "DRuHAQAAQBAJ",
+   "etag": "M7MRnbn+L84",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/DRuHAQAAQBAJ",
+   "volumeInfo": {
+    "title": "Le Sombre éclat",
+    "subtitle": "Les Écumeurs du silence",
+    "authors": [
+     "Michel Jeury"
+    ],
+    "publisher": "Milady",
+    "publishedDate": "2016-12-02",
+    "description": "An 525 du Moratoire, sur la Terre de la Présence, Juo et Ushaïa, ancienne maîtresse d’Acharac, sont contraints de fuir leurs ennemis : Nomades, chiens géants et les Écumeurs du silence. La destruction du village d’Ushaïa, rasé par les Écumeurs, ne leur laisse qu’une échappatoire : se réfugier au Sanctuaire de Térive d'Allac. Juo, Ushaïa et quelques rescapés y trouveront-ils un destin moins sombre ? Et découvriront-ils un jour la vérité sur le Moratoire? Né en 1934, Michel Jeury publie Aux étoiles du destin – écrit à dix-sept ans – dans la collection « Le Rayon Fantastique » en 1960. Le roman est salué comme une révélation. Après treize ans de silence, il publie Le Temps incertain, premier d’une liste de chefs-d’œuvre qui imposeront Jeury comme le chef de file de la nouvelle vague française des années 1970.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9782820509680"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "2820509681"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 212,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.10.12.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=DRuHAQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=DRuHAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "fr",
+    "previewLink": "http://books.google.fr/books?id=DRuHAQAAQBAJ&pg=PT35&dq=aboiement&hl=&as_pt=BOOKS&cd=2&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=DRuHAQAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-DRuHAQAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "FR",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 5.99,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 5.99,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=DRuHAQAAQBAJ&rdid=book-DRuHAQAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 5990000.0,
+       "currencyCode": "EUR"
       },
-      "href" : "https://api.spotify.com/v1/tracks/0QVf7U1E5qxHHill6UnYtE",
-      "id" : "0QVf7U1E5qxHHill6UnYtE",
-      "name" : "Adrienne",
-      "popularity" : 36,
-      "preview_url" : "https://p.scdn.co/mp3-preview/b142a3c76fe2b82411748c142607441896e7d63a?cid=null",
-      "track_number" : 6,
-      "type" : "track",
-      "uri" : "spotify:track:0QVf7U1E5qxHHill6UnYtE"
-    }, {
-      "album" : {
-        "album_type" : "album",
-        "artists" : [ {
-          "external_urls" : {
-            "spotify" : "https://open.spotify.com/artist/7pXu47GoqSYRajmBCjxdD6"
-          },
-          "href" : "https://api.spotify.com/v1/artists/7pXu47GoqSYRajmBCjxdD6",
-          "id" : "7pXu47GoqSYRajmBCjxdD6",
-          "name" : "Vulfpeck",
-          "type" : "artist",
-          "uri" : "spotify:artist:7pXu47GoqSYRajmBCjxdD6"
-        } ],
-        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/album/0D6mhsFYGQvysqDMeFMCR1"
-        },
-        "href" : "https://api.spotify.com/v1/albums/0D6mhsFYGQvysqDMeFMCR1",
-        "id" : "0D6mhsFYGQvysqDMeFMCR1",
-        "images" : [ {
-          "height" : 640,
-          "url" : "https://i.scdn.co/image/18ee45f031c5404ff640b1cfeb2ff849bf88e920",
-          "width" : 640
-        }, {
-          "height" : 300,
-          "url" : "https://i.scdn.co/image/4632c8bca6ab1505d53d229e99b2d83d0120f7e6",
-          "width" : 300
-        }, {
-          "height" : 64,
-          "url" : "https://i.scdn.co/image/dc8c7338afd49ff97ca0e079bc3a2b6b5079b411",
-          "width" : 64
-        } ],
-        "name" : "Vollmilch",
-        "type" : "album",
-        "uri" : "spotify:album:0D6mhsFYGQvysqDMeFMCR1"
+      "retailPrice": {
+       "amountInMicros": 5990000.0,
+       "currencyCode": "EUR"
       },
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/7pXu47GoqSYRajmBCjxdD6"
-        },
-        "href" : "https://api.spotify.com/v1/artists/7pXu47GoqSYRajmBCjxdD6",
-        "id" : "7pXu47GoqSYRajmBCjxdD6",
-        "name" : "Vulfpeck",
-        "type" : "artist",
-        "uri" : "spotify:artist:7pXu47GoqSYRajmBCjxdD6"
-      } ],
-      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
-      "disc_number" : 1,
-      "duration_ms" : 226548,
-      "explicit" : false,
-      "external_ids" : {
-        "isrc" : "TCABL1377321"
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "FR",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true
+    },
+    "pdf": {
+     "isAvailable": true
+    },
+    "webReaderLink": "http://books.google.fr/books/reader?id=DRuHAQAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Personne ne s&#39;occupait d&#39;eux, sauf Otto qui s&#39;était lancé à leur poursuite, puis \u003cbr\u003e\navait renoncé et rebroussé chemin en entendant les \u003cb\u003eaboiements\u003c/b\u003e des chiens et \u003cbr\u003e\nles premiers coups de feu. Plusieurs bêtes furent immédiatement abattues par \u003cbr\u003e\nles&nbsp;..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "8U2JAQAAQBAJ",
+   "etag": "ojQcSl/AW30",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/8U2JAQAAQBAJ",
+   "volumeInfo": {
+    "title": "La Nuit du Sagittaire",
+    "authors": [
+     "Pierre Pelot"
+    ],
+    "publisher": "Milady",
+    "publishedDate": "2016-12-02",
+    "description": "« Une lecture dense, parfumée, décapante, musclée, percutante et essentiellement dérangeante. [...] On en prend plein les mirettes dès les premières lignes. Il faut lire Pelot pour ne pas mourir gibier. » L’Est républicain « La Nuit du Sagittaire est une satire féroce, un thriller presque intimiste par moment, un plaidoyer anarchiste désespéré et lucide, sans outrances faciles : le plus noir peut être des romans de Pelot. » Sud Ouest Dimanche « Ceux qui s’imaginent encore que l’amour serait le moteur du monde, peuvent-ils savoir à quel point ils se trompent ? Le moteur véritable, c’est la peur. » Début du XXIe siècle, en France : la démocratie s’embourbe dans la lâcheté et le mépris. Le réel est trafiqué, falsifié par les médias, la citoyenneté est affaire d’image, la délation est devenue un jeu. Une fois par an, la chasse aux « hors-normes » est retransmise en direct lors du grand Jeu du Sagittaire. Deux millions de gibiers ! Durant quelques heures, la France bascule dans la sauvagerie. Les commandos de Chasseurs régionaux s’affrontent pour accéder à la finale, et raflent des points proportionnels à la personnalité de leurs victimes. Chasseurs ou cibles, personne ne s’y soustrait : l’audimat témoigne du civisme de chaque téléspectateur, fiché par une tique d’identité sous-cutanée. Un homme seul, un écrivain, y joue sa vie. Son livre dénonciation contre le Jeu du Sagittaire lui vaut d’être gibier, et sa traque promet d’être un spectacle de choix. Il se murmure que son fils est un Chasseur... « D’abord la télévision vous ment. Ensuite la télévision vous tue. » Pierre Pelot est un auteur vosgien né en 1945. Il a écrit près de deux cents romans dans les genres les plus divers, de la science-fiction au thriller, en passant par le western et la littérature générale, dont beaucoup ont été traduit dans plus de vingt langues. Avec des œuvres telles que Delirium Circus ou La Guerre olympique, il est l’un des meilleurs auteurs de SF française. En compagnie d’Yves Coppens, il a signé Le Rêve de Lucy et Sous le vent du monde. Son Été en pente douce a été adapté au cinéma avec le succès que l’on sait.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9782820509734"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "2820509738"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 164,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.10.10.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=8U2JAQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=8U2JAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "fr",
+    "previewLink": "http://books.google.fr/books?id=8U2JAQAAQBAJ&pg=PT38&dq=aboiement&hl=&as_pt=BOOKS&cd=3&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=8U2JAQAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-8U2JAQAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "FR",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 5.99,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 5.99,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=8U2JAQAAQBAJ&rdid=book-8U2JAQAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 5990000.0,
+       "currencyCode": "EUR"
       },
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/track/66xEqq3jsr3p52uOhGM5Nm"
+      "retailPrice": {
+       "amountInMicros": 5990000.0,
+       "currencyCode": "EUR"
       },
-      "href" : "https://api.spotify.com/v1/tracks/66xEqq3jsr3p52uOhGM5Nm",
-      "id" : "66xEqq3jsr3p52uOhGM5Nm",
-      "name" : "Adrienne & Adrianne",
-      "popularity" : 39,
-      "preview_url" : "https://p.scdn.co/mp3-preview/a3cae21b9d8379a671336cbe133995c27fe65d9c?cid=null",
-      "track_number" : 3,
-      "type" : "track",
-      "uri" : "spotify:track:66xEqq3jsr3p52uOhGM5Nm"
-    }, {
-      "album" : {
-        "album_type" : "album",
-        "artists" : [ {
-          "external_urls" : {
-            "spotify" : "https://open.spotify.com/artist/47bVt95bvBMpmJFWoyhH0C"
-          },
-          "href" : "https://api.spotify.com/v1/artists/47bVt95bvBMpmJFWoyhH0C",
-          "id" : "47bVt95bvBMpmJFWoyhH0C",
-          "name" : "Xtreme",
-          "type" : "artist",
-          "uri" : "spotify:artist:47bVt95bvBMpmJFWoyhH0C"
-        } ],
-        "available_markets" : [ "US" ],
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/album/38uPopiCd52CSfpvoJBeCf"
-        },
-        "href" : "https://api.spotify.com/v1/albums/38uPopiCd52CSfpvoJBeCf",
-        "id" : "38uPopiCd52CSfpvoJBeCf",
-        "images" : [ ],
-        "name" : "Haciendo Historia Platinum Edition",
-        "type" : "album",
-        "uri" : "spotify:album:38uPopiCd52CSfpvoJBeCf"
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "FR",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true
+    },
+    "pdf": {
+     "isAvailable": true
+    },
+    "webReaderLink": "http://books.google.fr/books/reader?id=8U2JAQAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Ils virent qu&#39;il avait le poignet gauche sanglé par la courroie de crosse du \u003cbr\u003e\ntubeuncanon de son grade. Il leva la main armée. — Le sort a désigné le \u003cbr\u003e\nTerritoire de l&#39;Est ! criatil. À ce cri répondit le grand \u003cb\u003eaboiement\u003c/b\u003e d&#39;enthousiasme \u003cbr\u003e\nlibérateur qui."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "twkxHHBfla0C",
+   "etag": "4Zuv0o7/Vx8",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/twkxHHBfla0C",
+   "volumeInfo": {
+    "title": "Trop beau pour être vrai",
+    "authors": [
+     "Kristan Higgins"
+    ],
+    "publisher": "HarperCollins",
+    "publishedDate": "2016-11-14",
+    "description": "Un vrai talent comique ! Invitée à son quatrième mariage de l’année... et toujours pas l’ombre d’un cavalier pour l’accompagner ! Grace ne voit plus qu’une solution pour rassurer ses parents et ses sœurs, épouvantés à l’idée qu’elle ne termine sa vie auprès de son chien Angus et de son meilleur ami gay : s’inventer un petit ami. Mais attention, le nec plus ultra des petits amis ! Riche, brillant, drôle, volontaire mais attentionné, solide mais tendre. Cerise sur le gâteau : cet homme parfait sera littéralement fou d’elle. Bref, un innocent mensonge, pour rassurer tout le monde... Mais voici que, dès le lendemain, Grace fait la connaissance de son nouveau voisin, Callahan O’Shea. Un homme qui a tout pour faire naître dans son esprit les fantasmes les plus torrides. Un seul détail cloche : tout juste sorti de prison, le beau Callahan est absolument infréquentable. Surtout aux yeux de la famille de Grace, qui n’attend qu’une chose : qu’elle leur présente son fiancé parfait... A propos de l'auteur : Depuis la publication de son premier livre, Kristan Higgins a vu ses romans régulièrement classés sur les listes de best-sellers de USA Today et du New York Times. Auteur de comédies romantiques piquantes et pleines de charme, elle possède le don rare et unique de savoir faire rire autant que d’émouvoir.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9782280299978"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "2280299976"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 448,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.4.4.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=twkxHHBfla0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=twkxHHBfla0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "fr",
+    "previewLink": "http://books.google.fr/books?id=twkxHHBfla0C&pg=PT276&dq=aboiement&hl=&as_pt=BOOKS&cd=4&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=twkxHHBfla0C&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-twkxHHBfla0C"
+   },
+   "saleInfo": {
+    "country": "FR",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 6.99,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 6.99,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=twkxHHBfla0C&rdid=book-twkxHHBfla0C&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 6990000.0,
+       "currencyCode": "EUR"
       },
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/47bVt95bvBMpmJFWoyhH0C"
-        },
-        "href" : "https://api.spotify.com/v1/artists/47bVt95bvBMpmJFWoyhH0C",
-        "id" : "47bVt95bvBMpmJFWoyhH0C",
-        "name" : "Xtreme",
-        "type" : "artist",
-        "uri" : "spotify:artist:47bVt95bvBMpmJFWoyhH0C"
-      }, {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/5kP1rZbHyBqGEg2NgwRCK4"
-        },
-        "href" : "https://api.spotify.com/v1/artists/5kP1rZbHyBqGEg2NgwRCK4",
-        "id" : "5kP1rZbHyBqGEg2NgwRCK4",
-        "name" : "Adrienne Bailon",
-        "type" : "artist",
-        "uri" : "spotify:artist:5kP1rZbHyBqGEg2NgwRCK4"
-      } ],
-      "available_markets" : [ "US" ],
-      "disc_number" : 1,
-      "duration_ms" : 217773,
-      "explicit" : false,
-      "external_ids" : {
-        "isrc" : "USFE50700275"
+      "retailPrice": {
+       "amountInMicros": 6990000.0,
+       "currencyCode": "EUR"
       },
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/track/3AHhyUZZcKp62F0AjWJgAF"
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "FR",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.fr/books/download/Trop_beau_pour_%C3%AAtre_vrai-sample-epub.acsm?id=twkxHHBfla0C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.fr/books/download/Trop_beau_pour_%C3%AAtre_vrai-sample-pdf.acsm?id=twkxHHBfla0C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://books.google.fr/books/reader?id=twkxHHBfla0C&hl=&as_pt=BOOKS&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Puis j&#39;entendis une sorte d&#39;\u003cb\u003eaboiement\u003c/b\u003e bref, étouffé, suivi d&#39;un jappement de \u003cbr\u003e\ndouleur, me semblatil, qui me glaça d&#39;effroi. — Angus ! Angus, où estu ? criaije \u003cbr\u003e\nen m&#39;avançant dans la direction d&#39;où le bruit m&#39;avait semblé provenir. En amont \u003cbr\u003e\nde la&nbsp;..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "_T6HAQAAQBAJ",
+   "etag": "s8nESYod0Ws",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/_T6HAQAAQBAJ",
+   "volumeInfo": {
+    "title": "Les Survivants du Paradis",
+    "subtitle": "Le Dernier Paradis",
+    "authors": [
+     "Michel Jeury"
+    ],
+    "publisher": "Milady",
+    "publishedDate": "2016-08-26",
+    "description": "Issu du défunt Paradis 5 ; Lorek se dresse contre les esclavagistes qui menacent ses naïfs compatriotes. Mais le jeune homme va vite comprendre qu’il est difficile d’être un héros...",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9782820512314"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "2820512313"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 169,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.13.14.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=_T6HAQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=_T6HAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "fr",
+    "previewLink": "http://books.google.fr/books?id=_T6HAQAAQBAJ&pg=PT17&dq=aboiement&hl=&as_pt=BOOKS&cd=5&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=_T6HAQAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-_T6HAQAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "FR",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 5.99,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 5.99,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=_T6HAQAAQBAJ&rdid=book-_T6HAQAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 5990000.0,
+       "currencyCode": "EUR"
       },
-      "href" : "https://api.spotify.com/v1/tracks/3AHhyUZZcKp62F0AjWJgAF",
-      "id" : "3AHhyUZZcKp62F0AjWJgAF",
-      "name" : "No Me Digas Que No",
-      "popularity" : 37,
-      "preview_url" : "https://p.scdn.co/mp3-preview/1def0e224c4b1dd5b73324169a7998309f442b43?cid=null",
-      "track_number" : 1,
-      "type" : "track",
-      "uri" : "spotify:track:3AHhyUZZcKp62F0AjWJgAF"
-    }, {
-      "album" : {
-        "album_type" : "album",
-        "artists" : [ {
-          "external_urls" : {
-            "spotify" : "https://open.spotify.com/artist/5LUIJrE1zjFb0aBmBgoGnc"
-          },
-          "href" : "https://api.spotify.com/v1/artists/5LUIJrE1zjFb0aBmBgoGnc",
-          "id" : "5LUIJrE1zjFb0aBmBgoGnc",
-          "name" : "Adrienne Grayce",
-          "type" : "artist",
-          "uri" : "spotify:artist:5LUIJrE1zjFb0aBmBgoGnc"
-        } ],
-        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/album/4WznbqqWFEZIqkSzlFhe1Y"
-        },
-        "href" : "https://api.spotify.com/v1/albums/4WznbqqWFEZIqkSzlFhe1Y",
-        "id" : "4WznbqqWFEZIqkSzlFhe1Y",
-        "images" : [ {
-          "height" : 640,
-          "url" : "https://i.scdn.co/image/333490b7df9b75cb4783c5f6938d32ea83224a6b",
-          "width" : 640
-        }, {
-          "height" : 300,
-          "url" : "https://i.scdn.co/image/90d46833f4cb9edb958f98380a64299671ecb471",
-          "width" : 300
-        }, {
-          "height" : 64,
-          "url" : "https://i.scdn.co/image/e7f1027684cd62eefad97e2ee8b701a55ca71277",
-          "width" : 64
-        } ],
-        "name" : "Back to Me",
-        "type" : "album",
-        "uri" : "spotify:album:4WznbqqWFEZIqkSzlFhe1Y"
+      "retailPrice": {
+       "amountInMicros": 5990000.0,
+       "currencyCode": "EUR"
       },
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/5LUIJrE1zjFb0aBmBgoGnc"
-        },
-        "href" : "https://api.spotify.com/v1/artists/5LUIJrE1zjFb0aBmBgoGnc",
-        "id" : "5LUIJrE1zjFb0aBmBgoGnc",
-        "name" : "Adrienne Grayce",
-        "type" : "artist",
-        "uri" : "spotify:artist:5LUIJrE1zjFb0aBmBgoGnc"
-      } ],
-      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
-      "disc_number" : 1,
-      "duration_ms" : 194472,
-      "explicit" : false,
-      "external_ids" : {
-        "isrc" : "TCACN1661879"
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "FR",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true
+    },
+    "pdf": {
+     "isAvailable": true
+    },
+    "webReaderLink": "http://books.google.fr/books/reader?id=_T6HAQAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Non, Lorek ne pouvait y croire. Il écouta et, de nouveau, crut entendre ce bruit \u003cbr\u003e\nbizarre qu&#39;il n&#39;avait su identifier : « flapflap » ou peutêtre « clapclap ». Il songea : \u003cbr\u003e\n« Estce que ce ne serait pas un \u003cb\u003eaboiement\u003c/b\u003e étouffé par on ne sait quoi ? » Un \u003cbr\u003e\nchien&nbsp;..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "sKU9CIryyo8C",
+   "etag": "ejauyVuzrcc",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/sKU9CIryyo8C",
+   "volumeInfo": {
+    "title": "SAS 25 L'homme de Kabul",
+    "authors": [
+     "Gérard de Villiers"
+    ],
+    "publisher": "Gérard de Villiers - SAS",
+    "publishedDate": "2016-07-01",
+    "description": "Malko mit une fraction de seconde à réaliser la signification du signal de Thomas Sands. Ses mains étaient collées par la sueur au volant. Il allait mourir. Furieusement, il se força à ne pas penser. Son pied écrasa férocement l'accélérateur de la Cadillac. La lourde voiture sembla flotter sur la poussière. Il restait quelques secondes avant la chute. Le compteur indiquait : 45 miles. La falaise venait à lui à toute vitesse.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9782360533589"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "2360533584"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 256,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.3.4.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=sKU9CIryyo8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=sKU9CIryyo8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "fr",
+    "previewLink": "http://books.google.fr/books?id=sKU9CIryyo8C&pg=PT76&dq=aboiement&hl=&as_pt=BOOKS&cd=6&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=sKU9CIryyo8C&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-sKU9CIryyo8C"
+   },
+   "saleInfo": {
+    "country": "FR",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 5.99,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 5.99,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=sKU9CIryyo8C&rdid=book-sKU9CIryyo8C&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 5990000.0,
+       "currencyCode": "EUR"
       },
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/track/3gIjB42K7KXRWUFd4dJbB7"
+      "retailPrice": {
+       "amountInMicros": 5990000.0,
+       "currencyCode": "EUR"
       },
-      "href" : "https://api.spotify.com/v1/tracks/3gIjB42K7KXRWUFd4dJbB7",
-      "id" : "3gIjB42K7KXRWUFd4dJbB7",
-      "name" : "My Church",
-      "popularity" : 28,
-      "preview_url" : "https://p.scdn.co/mp3-preview/32eea9ab88c5b23ad29d8c4e32e247acf58451a6?cid=null",
-      "track_number" : 4,
-      "type" : "track",
-      "uri" : "spotify:track:3gIjB42K7KXRWUFd4dJbB7"
-    }, {
-      "album" : {
-        "album_type" : "album",
-        "artists" : [ {
-          "external_urls" : {
-            "spotify" : "https://open.spotify.com/artist/4ntkql3f3ect7NDRUJ7aAY"
-          },
-          "href" : "https://api.spotify.com/v1/artists/4ntkql3f3ect7NDRUJ7aAY",
-          "id" : "4ntkql3f3ect7NDRUJ7aAY",
-          "name" : "The Cheetah Girls",
-          "type" : "artist",
-          "uri" : "spotify:artist:4ntkql3f3ect7NDRUJ7aAY"
-        } ],
-        "available_markets" : [ "CA", "MX", "US" ],
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/album/6H9FjLFzCgX485reYmS3c3"
-        },
-        "href" : "https://api.spotify.com/v1/albums/6H9FjLFzCgX485reYmS3c3",
-        "id" : "6H9FjLFzCgX485reYmS3c3",
-        "images" : [ {
-          "height" : 640,
-          "url" : "https://i.scdn.co/image/dc8b6d34c91716b502a148bbe3c619c5075da481",
-          "width" : 640
-        }, {
-          "height" : 300,
-          "url" : "https://i.scdn.co/image/1087af88f06e15c430335cbe6cdcb19bf5836396",
-          "width" : 300
-        }, {
-          "height" : 64,
-          "url" : "https://i.scdn.co/image/daf60dced41866c1fbc949f318dec0dc453f8af3",
-          "width" : 64
-        } ],
-        "name" : "The Cheetah Girls: One World",
-        "type" : "album",
-        "uri" : "spotify:album:6H9FjLFzCgX485reYmS3c3"
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "FR",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.fr/books/download/SAS_25_L_homme_de_Kabul-sample-epub.acsm?id=sKU9CIryyo8C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.fr/books/download/SAS_25_L_homme_de_Kabul-sample-pdf.acsm?id=sKU9CIryyo8C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://books.google.fr/books/reader?id=sKU9CIryyo8C&hl=&as_pt=BOOKS&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Tout à coup, l&#39;\u003cb\u003eaboiement\u003c/b\u003e d&#39;un chien retentit. C&#39;était unson tellement inattendu qu&#39;\u003cbr\u003e\nil faillit appuyer sur la détentede son arme. Ilaperçut l&#39;animal arrêté le long de la \u003cbr\u003e\ncaravane, face àeux, etaboyant de toutes ses forces. Instantanément, les deux&nbsp;..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "83P2CwAAQBAJ",
+   "etag": "8MlzjZ8ffMo",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/83P2CwAAQBAJ",
+   "volumeInfo": {
+    "title": "Sur les chemins des pardons et pèlerinages en Bretagne",
+    "authors": [
+     "Bernard Rio"
+    ],
+    "publisher": "Le Passeur",
+    "publishedDate": "2016-04-21",
+    "description": "Tradition millénaire, les pardons bretons célèbrent des saints légendaires dotés de pouvoirs mystérieux et sont fêtés, aujourd'hui encore, avec ferveur. Quant aux pèlerinages, ils sont remis à l'honneur depuis quelques années. Bernard Rio part à leur découverte. La Bretagne est le pays des pardons. Chaque année, les Bretons se rassemblent autour des milliers de chapelles qui maillent le paysage. Ils y célèbrent des saints dotés de pouvoirs mystérieux et se prêtent à des rites ancestraux : procession autour du sanctuaire, baiser des reliques, accolement des statues, ablution aux fontaines, embrasement des bûchers, joutes et danses... Ces manifestations de la piété populaire ont évolué au fil des siècles : aux pardons équestres se sont ajoutés ceux des motards ou des tracteurs, tandis que le pardon des surfeurs représente une version contemporaine du pardon de la mer. Bernard Rio, qui y assiste depuis de nombreuses années, a accompagné cette évolution. Il a également emprunté les routes de pèlerinage qui connaissent une renaissance spectaculaire. De Locronan à Sainte-Anne d'Auray, sur les chemins de Saint-Jacques ou du Tro Breiz, il restitue d'un style alerte l'âme de cette Bretagne intérieure et nous invite à le suivre.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9782368903032"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "2368903038"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 288,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.1.1.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=83P2CwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=83P2CwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "fr",
+    "previewLink": "http://books.google.fr/books?id=83P2CwAAQBAJ&pg=PT83&dq=aboiement&hl=&as_pt=BOOKS&cd=7&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=83P2CwAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-83P2CwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "FR",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 9.99,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 9.99,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=83P2CwAAQBAJ&rdid=book-83P2CwAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 9990000.0,
+       "currencyCode": "EUR"
       },
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/5kP1rZbHyBqGEg2NgwRCK4"
-        },
-        "href" : "https://api.spotify.com/v1/artists/5kP1rZbHyBqGEg2NgwRCK4",
-        "id" : "5kP1rZbHyBqGEg2NgwRCK4",
-        "name" : "Adrienne Bailon",
-        "type" : "artist",
-        "uri" : "spotify:artist:5kP1rZbHyBqGEg2NgwRCK4"
-      } ],
-      "available_markets" : [ "CA", "MX", "US" ],
-      "disc_number" : 1,
-      "duration_ms" : 190066,
-      "explicit" : false,
-      "external_ids" : {
-        "isrc" : "USWD10834400"
+      "retailPrice": {
+       "amountInMicros": 9990000.0,
+       "currencyCode": "EUR"
       },
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/track/2KsZTjyIP1ncNWD04pEhmE"
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "FR",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.fr/books/download/Sur_les_chemins_des_pardons_et_p%C3%A8lerina-sample-epub.acsm?id=83P2CwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.fr/books/download/Sur_les_chemins_des_pardons_et_p%C3%A8lerina-sample-pdf.acsm?id=83P2CwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://books.google.fr/books/reader?id=83P2CwAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "L&#39;\u003cb\u003eaboiement\u003c/b\u003e n&#39;est pas une punition, ce n&#39;est qu&#39;une maladie à caractère \u003cbr\u003e\nmystérieux. L&#39;\u003cb\u003eaboiement\u003c/b\u003e n&#39;est pas une punition qui frappe ni à certain jour ni à \u003cbr\u003e\ncertains lieux : ceux qui en sont victimes tombent sous ses coups partout et \u003cbr\u003e\nplusieurs fois&nbsp;..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "BTy0CwAAQBAJ",
+   "etag": "VyRtFfgkuF0",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/BTy0CwAAQBAJ",
+   "volumeInfo": {
+    "title": "Ecrits sur la pensée au Moyen Age",
+    "authors": [
+     "Umberto Eco"
+    ],
+    "publisher": "Grasset",
+    "publishedDate": "2016-04-13",
+    "description": "Ce recueil regroupe tous les textes sur le Moyen Age publiés par Umberto Eco au cours des cinquante dernières années : L’Art et la beauté dans l’esthétique médiévale avec une nouvelle entrée sur « la beauté des monstres », Le problème esthétique chez Thomas d’Aquin : visio et proportio, puis viennent ensuite De l’arbre au labyrinthe, où se mêlent l’étude de la métaphore chez Aristote, quelques archéologies zoosémiotiques et l’Apocalypse de Beatus, Lulle Pic et le Lullisme et enfin un texte consacré à James Joyce, Portrait du thomiste en jeune homme. Des conférences, préfaces et autres écrits inédits terminent ce volume.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9782246811633"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "2246811635"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 1184,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.1.1.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=BTy0CwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=BTy0CwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "fr",
+    "previewLink": "http://books.google.fr/books?id=BTy0CwAAQBAJ&pg=PT368&dq=aboiement&hl=&as_pt=BOOKS&cd=8&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=BTy0CwAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-BTy0CwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "FR",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 28.99,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 28.99,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=BTy0CwAAQBAJ&rdid=book-BTy0CwAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 2.899E7,
+       "currencyCode": "EUR"
       },
-      "href" : "https://api.spotify.com/v1/tracks/2KsZTjyIP1ncNWD04pEhmE",
-      "id" : "2KsZTjyIP1ncNWD04pEhmE",
-      "name" : "Stand Up",
-      "popularity" : 26,
-      "preview_url" : "https://p.scdn.co/mp3-preview/5e429a1044b7b0477a1942c5c9e6d1ad00cc8a76?cid=null",
-      "track_number" : 5,
-      "type" : "track",
-      "uri" : "spotify:track:2KsZTjyIP1ncNWD04pEhmE"
-    }, {
-      "album" : {
-        "album_type" : "single",
-        "artists" : [ {
-          "external_urls" : {
-            "spotify" : "https://open.spotify.com/artist/265X8FfmqwN1dBSSYYW6ll"
-          },
-          "href" : "https://api.spotify.com/v1/artists/265X8FfmqwN1dBSSYYW6ll",
-          "id" : "265X8FfmqwN1dBSSYYW6ll",
-          "name" : "Adrienne Liesching",
-          "type" : "artist",
-          "uri" : "spotify:artist:265X8FfmqwN1dBSSYYW6ll"
-        }, {
-          "external_urls" : {
-            "spotify" : "https://open.spotify.com/artist/4UW96Vbvr0AOJY3MqzNmoa"
-          },
-          "href" : "https://api.spotify.com/v1/artists/4UW96Vbvr0AOJY3MqzNmoa",
-          "id" : "4UW96Vbvr0AOJY3MqzNmoa",
-          "name" : "Geoff Moore & The Distance",
-          "type" : "artist",
-          "uri" : "spotify:artist:4UW96Vbvr0AOJY3MqzNmoa"
-        } ],
-        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/album/32yPO4enMBvu9mMsNqo6hf"
-        },
-        "href" : "https://api.spotify.com/v1/albums/32yPO4enMBvu9mMsNqo6hf",
-        "id" : "32yPO4enMBvu9mMsNqo6hf",
-        "images" : [ {
-          "height" : 640,
-          "url" : "https://i.scdn.co/image/883e999d4b6220bceb20a865b4996b7c185bbbe3",
-          "width" : 640
-        }, {
-          "height" : 300,
-          "url" : "https://i.scdn.co/image/52810d51c8d9e0f390ed13324b218ef986c66cbc",
-          "width" : 300
-        }, {
-          "height" : 64,
-          "url" : "https://i.scdn.co/image/ad758e84d6aab9dd0aa4b02e95c4444bacb14457",
-          "width" : 64
-        } ],
-        "name" : "Premiere Performance Plus: In Christ Alone",
-        "type" : "album",
-        "uri" : "spotify:album:32yPO4enMBvu9mMsNqo6hf"
+      "retailPrice": {
+       "amountInMicros": 2.899E7,
+       "currencyCode": "EUR"
       },
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/265X8FfmqwN1dBSSYYW6ll"
-        },
-        "href" : "https://api.spotify.com/v1/artists/265X8FfmqwN1dBSSYYW6ll",
-        "id" : "265X8FfmqwN1dBSSYYW6ll",
-        "name" : "Adrienne Liesching",
-        "type" : "artist",
-        "uri" : "spotify:artist:265X8FfmqwN1dBSSYYW6ll"
-      }, {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/4UW96Vbvr0AOJY3MqzNmoa"
-        },
-        "href" : "https://api.spotify.com/v1/artists/4UW96Vbvr0AOJY3MqzNmoa",
-        "id" : "4UW96Vbvr0AOJY3MqzNmoa",
-        "name" : "Geoff Moore & The Distance",
-        "type" : "artist",
-        "uri" : "spotify:artist:4UW96Vbvr0AOJY3MqzNmoa"
-      } ],
-      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
-      "disc_number" : 1,
-      "duration_ms" : 348666,
-      "explicit" : false,
-      "external_ids" : {
-        "isrc" : "USFF10216007"
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "FR",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.fr/books/download/Ecrits_sur_la_pens%C3%A9e_au_Moyen_Age-sample-epub.acsm?id=BTy0CwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.fr/books/download/Ecrits_sur_la_pens%C3%A9e_au_Moyen_Age-sample-pdf.acsm?id=BTy0CwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://books.google.fr/books/reader?id=BTy0CwAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Le chien de l&#39;emblème 165 d&#39;Alciat regarde la lune comme si c&#39;était un miroir et, \u003cbr\u003e\ncroyant y voir un autre chien, il \u003cb\u003eaboie\u003c/b\u003e, mais son \u003cb\u003eaboiement\u003c/b\u003e est vainement \u003cbr\u003e\nemporté par le vent. Quant au chien de l&#39;emblème 175, qui saisit dans sa gueule \u003cbr\u003e\nla&nbsp;..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "QdKHAQAAQBAJ",
+   "etag": "NwJn1sK8fgE",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/QdKHAQAAQBAJ",
+   "volumeInfo": {
+    "title": "La Planète du jugement",
+    "subtitle": "Goer de la Terre",
+    "authors": [
+     "Michel Jeury"
+    ],
+    "publisher": "Milady",
+    "publishedDate": "2016-03-18",
+    "description": "« Une flèche s’alluma. La lumière bleue clignota, désignant un escalier métallique étroit, qui s’élevait en spirale dans un cylindre faiblement éclairé. Les candidats au jugement s’y engagèrent les uns après les autres, calmement. Les marches étaient hautes, un peu glissantes, mais la pesanteur réduite rendait l’ascension assez facile. » Au départ de cette aventure, il n’y a qu’une seule envie, celle pour Serge de ne pas voir son fils mourir.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9782820512260"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "2820512267"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 182,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.14.13.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=QdKHAQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=QdKHAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "fr",
+    "previewLink": "http://books.google.fr/books?id=QdKHAQAAQBAJ&pg=PT113&dq=aboiement&hl=&as_pt=BOOKS&cd=9&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=QdKHAQAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-QdKHAQAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "FR",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 5.99,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 5.99,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=QdKHAQAAQBAJ&rdid=book-QdKHAQAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 5990000.0,
+       "currencyCode": "EUR"
       },
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/track/2EbVNVEZicKlXM0ZJl6Y8f"
+      "retailPrice": {
+       "amountInMicros": 5990000.0,
+       "currencyCode": "EUR"
       },
-      "href" : "https://api.spotify.com/v1/tracks/2EbVNVEZicKlXM0ZJl6Y8f",
-      "id" : "2EbVNVEZicKlXM0ZJl6Y8f",
-      "name" : "In Christ Alone (My Hope Is Found)",
-      "popularity" : 29,
-      "preview_url" : "https://p.scdn.co/mp3-preview/afda59564fba33b04c17e95b90af88b1f217ad5b?cid=null",
-      "track_number" : 4,
-      "type" : "track",
-      "uri" : "spotify:track:2EbVNVEZicKlXM0ZJl6Y8f"
-    }, {
-      "album" : {
-        "album_type" : "album",
-        "artists" : [ {
-          "external_urls" : {
-            "spotify" : "https://open.spotify.com/artist/3GzWhE2xadJiW8MqRKIVSK"
-          },
-          "href" : "https://api.spotify.com/v1/artists/3GzWhE2xadJiW8MqRKIVSK",
-          "id" : "3GzWhE2xadJiW8MqRKIVSK",
-          "name" : "Underoath",
-          "type" : "artist",
-          "uri" : "spotify:artist:3GzWhE2xadJiW8MqRKIVSK"
-        } ],
-        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/album/7jKyYt13XCfVnwMEGyVoAg"
-        },
-        "href" : "https://api.spotify.com/v1/albums/7jKyYt13XCfVnwMEGyVoAg",
-        "id" : "7jKyYt13XCfVnwMEGyVoAg",
-        "images" : [ {
-          "height" : 640,
-          "url" : "https://i.scdn.co/image/fd68b1cbf7f36e7e39ab4bc997116841a1b1d3c4",
-          "width" : 640
-        }, {
-          "height" : 300,
-          "url" : "https://i.scdn.co/image/162c89a982a8c8ca12c88c4eaed107b38c8376e0",
-          "width" : 300
-        }, {
-          "height" : 64,
-          "url" : "https://i.scdn.co/image/23cb13994fe5ae91d72c593e2067c5d4268513cd",
-          "width" : 64
-        } ],
-        "name" : "The Changing of Times",
-        "type" : "album",
-        "uri" : "spotify:album:7jKyYt13XCfVnwMEGyVoAg"
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "FR",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true
+    },
+    "pdf": {
+     "isAvailable": true
+    },
+    "webReaderLink": "http://books.google.fr/books/reader?id=QdKHAQAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "On n&#39;entendait aucun \u003cb\u003eaboiement\u003c/b\u003e. Les bêtes dressées par les Oonantis – loups à \u003cbr\u003e\nlongue fourrure – chassaient en silence. — Tu es sûre qu&#39;ils sont derrière nous ? \u003cbr\u003e\n— Je sais qu&#39;ils vont nous rejoindre, dit Sophia d&#39;une voix étouffée. Bientôt !"
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "Dhl2CwAAQBAJ",
+   "etag": "NKqVNB7EyHM",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/Dhl2CwAAQBAJ",
+   "volumeInfo": {
+    "title": "Bad Trip",
+    "subtitle": "Une nouvelle sombre aux allures de thriller",
+    "authors": [
+     "Gaëtan Brixtel",
+     "Noire sœur"
+    ],
+    "publisher": "Ska Éditions",
+    "publishedDate": "2016-01-26",
+    "description": "Une nouvelle noire aux allures de thriller habilement surprenante Les champignons hallucinogènes en guise de pâtée pour toutou ont un effet dévastateur... « J'arrive pas à croire que Totor soit mort. » Hélène a lancé ça à table. Au milieu d'un apéritif dînatoire, évoquer notre chien, ça fait bizarre. Ca jette un froid sur les invités, sur les parents et moi : on dirait que même les bulles du champagne s'arrêtent de pétiller. M. Vaudry se permet tout de même de lui rendre hommage : « C'était une brave bête », dit-il avec une gêne profonde. Papa fait comprendre à Hélène que ce n'est pas le moment, ce qui ne nous empêche pas d'embrayer sur ce sujet douloureux. Pendant quelques instants, nos langues se délient, et Totor apparaît comme un mirage gambadant au-dessus de nos fronts. On l'aimait, ce fichu chien ! Il était moche et comique, l'équivalent quadrupède d'un vieux pépé pantouflard et râleur en train de ronfler dans son fauteuil. Gaëtan Brixtel nous conte des mésaventures ponctuant la vie ordinaire. Des dérapages frisant le pire par un auteur dont la noirceur en demi-teinte ravira les amateurs du genre. EXTRAIT J’appréciais Totor parce qu’il était moche, parce que les gamines et les grands-mères ne s’arrêtaient pas en chemin pour le caresser et me complimenter à propos de ma belle et gentille bête. Je l’aimais assez pour faire de temps en temps le tour du bois avec lui. Je n’y allais pas seul : Antonin, un de mes amis, m’accompagnait la plupart du temps. Ce jour-là, nous avions squatté tout l’après-midi dans ma chambre, au dernier étage. C’était un grenier aménagé et confiné par les angles de la charpente, recelant une flore toxique de mouchoirs usagés et d’assiettes sales où s’empilaient peaux de bananes, pelures de pêches et restes de cigarettes éventrées. Antonin était allongé sur le lit, et moi assis en tailleur, en train d’effriter une boulette de haschisch. La nature, c’était plus trop notre truc depuis qu’on s’était mis aux jeux en ligne, mais il reste chez tous les fumeurs de joints une indéfectible soif de découverte, dont chaque idée, plus piquante que la précédente, commence par : ce serait excellent si on se fumait un joint... A PROPOS DE L’AUTEUR Fichtre ! Il faut se présenter. Après une belle carrière d'étudiant raté – notamment comme Illettré Moderne – Gaëtan Brixtel se découvre une vocation en devenant agent de bibliothèque par accident, et compte bien le rester avec l'aide de Dieu (ou de son conseiller en insertion). Il écrit des histoires depuis qu'il sait qu'on peut le faire. Sa première nouvelle publiée par le Village du Livre de Cuisery l'incite à penser qu'il ne perd pas complètement son temps. Il participe de temps à autre à des concours qui, hélas, renâclent un peu à l'odeur de joints et de cadavres en putréfaction. En 2014, il soumet une nouvelle aux éditions Ska, et – Ô miracle, Ô jour du seigneur ! – elle est acceptée. Bref, si vous entendez parler de lui, c'est purement par hasard...",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9791023404784"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 26,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.1.1.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=Dhl2CwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=Dhl2CwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "fr",
+    "previewLink": "http://books.google.fr/books?id=Dhl2CwAAQBAJ&printsec=frontcover&dq=aboiement&hl=&as_pt=BOOKS&cd=10&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=Dhl2CwAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://market.android.com/details?id=book-Dhl2CwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "FR",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 1.49,
+     "currencyCode": "EUR"
+    },
+    "retailPrice": {
+     "amount": 1.49,
+     "currencyCode": "EUR"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=Dhl2CwAAQBAJ&rdid=book-Dhl2CwAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1490000.0,
+       "currencyCode": "EUR"
       },
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/3GzWhE2xadJiW8MqRKIVSK"
-        },
-        "href" : "https://api.spotify.com/v1/artists/3GzWhE2xadJiW8MqRKIVSK",
-        "id" : "3GzWhE2xadJiW8MqRKIVSK",
-        "name" : "Underoath",
-        "type" : "artist",
-        "uri" : "spotify:artist:3GzWhE2xadJiW8MqRKIVSK"
-      } ],
-      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
-      "disc_number" : 1,
-      "duration_ms" : 277640,
-      "explicit" : false,
-      "external_ids" : {
-        "isrc" : "USTN10249307"
+      "retailPrice": {
+       "amountInMicros": 1490000.0,
+       "currencyCode": "EUR"
       },
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/track/5cReuMm3X3iqU7xdsjczsE"
-      },
-      "href" : "https://api.spotify.com/v1/tracks/5cReuMm3X3iqU7xdsjczsE",
-      "id" : "5cReuMm3X3iqU7xdsjczsE",
-      "name" : "A Message for Adrienne",
-      "popularity" : 25,
-      "preview_url" : "https://p.scdn.co/mp3-preview/3917cabcc4ce80888a499549646ceace4e57922b?cid=null",
-      "track_number" : 3,
-      "type" : "track",
-      "uri" : "spotify:track:5cReuMm3X3iqU7xdsjczsE"
-    }, {
-      "album" : {
-        "album_type" : "single",
-        "artists" : [ {
-          "external_urls" : {
-            "spotify" : "https://open.spotify.com/artist/5LUIJrE1zjFb0aBmBgoGnc"
-          },
-          "href" : "https://api.spotify.com/v1/artists/5LUIJrE1zjFb0aBmBgoGnc",
-          "id" : "5LUIJrE1zjFb0aBmBgoGnc",
-          "name" : "Adrienne Grayce",
-          "type" : "artist",
-          "uri" : "spotify:artist:5LUIJrE1zjFb0aBmBgoGnc"
-        } ],
-        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/album/0DIo9zoOkTHrcANvQBDuGp"
-        },
-        "href" : "https://api.spotify.com/v1/albums/0DIo9zoOkTHrcANvQBDuGp",
-        "id" : "0DIo9zoOkTHrcANvQBDuGp",
-        "images" : [ {
-          "height" : 640,
-          "url" : "https://i.scdn.co/image/b38e044a0fdee600363e4619e8766bce2fa8daec",
-          "width" : 640
-        }, {
-          "height" : 300,
-          "url" : "https://i.scdn.co/image/daf43395d0e01946a72ed3665c2dd90d5844cc39",
-          "width" : 300
-        }, {
-          "height" : 64,
-          "url" : "https://i.scdn.co/image/33d63fc3c8ada274c4496ff121494c4f8b2f18ca",
-          "width" : 64
-        } ],
-        "name" : "Dancing in the Sky",
-        "type" : "album",
-        "uri" : "spotify:album:0DIo9zoOkTHrcANvQBDuGp"
-      },
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/5LUIJrE1zjFb0aBmBgoGnc"
-        },
-        "href" : "https://api.spotify.com/v1/artists/5LUIJrE1zjFb0aBmBgoGnc",
-        "id" : "5LUIJrE1zjFb0aBmBgoGnc",
-        "name" : "Adrienne Grayce",
-        "type" : "artist",
-        "uri" : "spotify:artist:5LUIJrE1zjFb0aBmBgoGnc"
-      } ],
-      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
-      "disc_number" : 1,
-      "duration_ms" : 213699,
-      "explicit" : false,
-      "external_ids" : {
-        "isrc" : "TCACJ1562073"
-      },
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/track/7mU7eY93DpBgJzcTSrr6Md"
-      },
-      "href" : "https://api.spotify.com/v1/tracks/7mU7eY93DpBgJzcTSrr6Md",
-      "id" : "7mU7eY93DpBgJzcTSrr6Md",
-      "name" : "Dancing in the Sky",
-      "popularity" : 27,
-      "preview_url" : "https://p.scdn.co/mp3-preview/ff8a2599a36f78c32f96145d6c3ade4ecad89d46?cid=null",
-      "track_number" : 1,
-      "type" : "track",
-      "uri" : "spotify:track:7mU7eY93DpBgJzcTSrr6Md"
-    }, {
-      "album" : {
-        "album_type" : "album",
-        "artists" : [ {
-          "external_urls" : {
-            "spotify" : "https://open.spotify.com/artist/1Ulz91s7Ld108HmeidLpNY"
-          },
-          "href" : "https://api.spotify.com/v1/artists/1Ulz91s7Ld108HmeidLpNY",
-          "id" : "1Ulz91s7Ld108HmeidLpNY",
-          "name" : "Tropicana d'Haïti",
-          "type" : "artist",
-          "uri" : "spotify:artist:1Ulz91s7Ld108HmeidLpNY"
-        } ],
-        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/album/4GYIhzU8DLOmBKVInQSHUw"
-        },
-        "href" : "https://api.spotify.com/v1/albums/4GYIhzU8DLOmBKVInQSHUw",
-        "id" : "4GYIhzU8DLOmBKVInQSHUw",
-        "images" : [ {
-          "height" : 640,
-          "url" : "https://i.scdn.co/image/1147e9000584ca0088657de909cf3331052f01e7",
-          "width" : 640
-        }, {
-          "height" : 300,
-          "url" : "https://i.scdn.co/image/85226522e4c8f6ccddb354c1202868cb3c4bb592",
-          "width" : 300
-        }, {
-          "height" : 64,
-          "url" : "https://i.scdn.co/image/49d715bd2a731b59b987b1b9eca40eebf993eb1d",
-          "width" : 64
-        } ],
-        "name" : "Tropicana d'Haïti : 40ème anniversaire, vol. 1",
-        "type" : "album",
-        "uri" : "spotify:album:4GYIhzU8DLOmBKVInQSHUw"
-      },
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/1Ulz91s7Ld108HmeidLpNY"
-        },
-        "href" : "https://api.spotify.com/v1/artists/1Ulz91s7Ld108HmeidLpNY",
-        "id" : "1Ulz91s7Ld108HmeidLpNY",
-        "name" : "Tropicana d'Haïti",
-        "type" : "artist",
-        "uri" : "spotify:artist:1Ulz91s7Ld108HmeidLpNY"
-      } ],
-      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
-      "disc_number" : 1,
-      "duration_ms" : 421920,
-      "explicit" : false,
-      "external_ids" : {
-        "isrc" : "FR6V80289097"
-      },
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/track/64AOdTBjLhDa2T8JODIHnL"
-      },
-      "href" : "https://api.spotify.com/v1/tracks/64AOdTBjLhDa2T8JODIHnL",
-      "id" : "64AOdTBjLhDa2T8JODIHnL",
-      "name" : "Adrienne",
-      "popularity" : 16,
-      "preview_url" : "https://p.scdn.co/mp3-preview/3b7ad7909e922d48fa508c4171a005d5ad2a89cc?cid=null",
-      "track_number" : 2,
-      "type" : "track",
-      "uri" : "spotify:track:64AOdTBjLhDa2T8JODIHnL"
-    }, {
-      "album" : {
-        "album_type" : "single",
-        "artists" : [ {
-          "external_urls" : {
-            "spotify" : "https://open.spotify.com/artist/5LUIJrE1zjFb0aBmBgoGnc"
-          },
-          "href" : "https://api.spotify.com/v1/artists/5LUIJrE1zjFb0aBmBgoGnc",
-          "id" : "5LUIJrE1zjFb0aBmBgoGnc",
-          "name" : "Adrienne Grayce",
-          "type" : "artist",
-          "uri" : "spotify:artist:5LUIJrE1zjFb0aBmBgoGnc"
-        } ],
-        "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/album/4wwdOuVxMjXaiQOBVyCvHf"
-        },
-        "href" : "https://api.spotify.com/v1/albums/4wwdOuVxMjXaiQOBVyCvHf",
-        "id" : "4wwdOuVxMjXaiQOBVyCvHf",
-        "images" : [ {
-          "height" : 640,
-          "url" : "https://i.scdn.co/image/2b27639830a15881deb56e3d3a944cae9b50de69",
-          "width" : 640
-        }, {
-          "height" : 300,
-          "url" : "https://i.scdn.co/image/ebe4757c34be19108e94d25e20c9b7fe34355ae7",
-          "width" : 300
-        }, {
-          "height" : 64,
-          "url" : "https://i.scdn.co/image/2bcbc279c6e046606e957ac1735e0b1bddf44342",
-          "width" : 64
-        } ],
-        "name" : "Jealous of the Angels",
-        "type" : "album",
-        "uri" : "spotify:album:4wwdOuVxMjXaiQOBVyCvHf"
-      },
-      "artists" : [ {
-        "external_urls" : {
-          "spotify" : "https://open.spotify.com/artist/5LUIJrE1zjFb0aBmBgoGnc"
-        },
-        "href" : "https://api.spotify.com/v1/artists/5LUIJrE1zjFb0aBmBgoGnc",
-        "id" : "5LUIJrE1zjFb0aBmBgoGnc",
-        "name" : "Adrienne Grayce",
-        "type" : "artist",
-        "uri" : "spotify:artist:5LUIJrE1zjFb0aBmBgoGnc"
-      } ],
-      "available_markets" : [ "AD", "AR", "AT", "AU", "BE", "BG", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "EC", "EE", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IS", "IT", "JP", "LI", "LT", "LU", "LV", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "PA", "PE", "PH", "PL", "PT", "PY", "SE", "SG", "SK", "SV", "TR", "TW", "US", "UY" ],
-      "disc_number" : 1,
-      "duration_ms" : 256800,
-      "explicit" : false,
-      "external_ids" : {
-        "isrc" : "TCACS1678051"
-      },
-      "external_urls" : {
-        "spotify" : "https://open.spotify.com/track/65QgcKodKLtYya8ISYoObZ"
-      },
-      "href" : "https://api.spotify.com/v1/tracks/65QgcKodKLtYya8ISYoObZ",
-      "id" : "65QgcKodKLtYya8ISYoObZ",
-      "name" : "Jealous of the Angels",
-      "popularity" : 19,
-      "preview_url" : "https://p.scdn.co/mp3-preview/598409e6584fb4c89652c885bbf891d801fd86d6?cid=null",
-      "track_number" : 1,
-      "type" : "track",
-      "uri" : "spotify:track:65QgcKodKLtYya8ISYoObZ"
-    } ],
-    "limit" : 10,
-    "next" : "https://api.spotify.com/v1/search?query=Adrienne&type=track&offset=10&limit=10",
-    "offset" : 0,
-    "previous" : null,
-    "total" : 2014
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "FR",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true
+    },
+    "pdf": {
+     "isAvailable": true
+    },
+    "webReaderLink": "http://books.google.fr/books/reader?id=Dhl2CwAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&output=reader&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Une nouvelle noire aux allures de thriller habilement surprenante Les champignons hallucinogènes en guise de pâtée pour toutou ont un effet dévastateur... « J&#39;arrive pas à croire que Totor soit mort. » Hélène a lancé ça à table."
+   }
   }
+ ]
 }
