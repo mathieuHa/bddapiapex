@@ -25,6 +25,7 @@ public class AddJson {
     private String inconnu = "unknown";
     private List<String> cat = new ArrayList<String>();
     private int cati = 0;
+    private int ID = 0;
 
     public AddJson(PrintWriter pw) {
         this.pw = pw;
@@ -66,6 +67,12 @@ public class AddJson {
 
     public String buildRequestMusique(String subject) {
         String s = "https://api.spotify.com/v1/search?q=" + subject + "&type=track&limit=10";
+        System.out.println(s);
+        return s;
+    }
+
+    public String buildRequestAlbum(String subject) {
+        String s = "https://api.spotify.com/v1/search?q=" + subject + "&type=album&limit=1";
         System.out.println(s);
         return s;
     }
@@ -234,26 +241,46 @@ public class AddJson {
 
     public void sendMusic(String title, String auteur, String album, String image, String id) {
         busy = true;
-        title = title.replace("'", "''");
-        album = album.replace("'", "''");
-        image = image.replace("'", "''");
-        auteur = auteur.replace("'", "''");
+        title = title.replace("'", "");
+        album = album.replace("'", "");
+        image = image.replace("'", "");
+        auteur = auteur.replace("'", "");
+        title = title.replace(",", "");
+        album = album.replace(",", "");
+        image = image.replace(",", "");
+        auteur = auteur.replace(",", "");
+        File f = new File("music.txt");
+        try {
+            PrintWriter pwc = new PrintWriter(new BufferedWriter(new FileWriter(f)));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
-        StringBuilder sb = new StringBuilder();
-        sb.append(title);
-        sb.append(';');
-        sb.append(album);
-        sb.append(';');
-        sb.append(image);
-        sb.append(';');
-        sb.append(auteur);
-        sb.append('\n');
+        String sqlinsertAlbum = "INSERT INTO ALBUMS (ALBUMTITRE,AUTEUR,IMAGE) " +
+                "VALUES ("
+                + "'" + album + "',"
+                + "'" + auteur + "',"
+                + "'" + image + "');";
 
-        pw.append(sb.toString());
+        String sqlselectAlbum = "(SELECT ALBUMID FROM ALBUMS WHERE ALBUMTITRE = '" + album+"')";
+
+        String sqlinsertItem = "INSERT INTO ITEM (ALBUMS_ALBUMID) " +
+                "VALUES (" +
+                sqlselectAlbum+
+                ");";
+        String sqlinsertChanson = "INSERT INTO CHANSONS (ALBUMS_ALBUMID,CHANSONTITRE) " +
+                "VALUES (" +
+                sqlselectAlbum+",'"
+                + title + "'"+
+                ");";
+
+        pw.append(sqlinsertAlbum+"\n");
+        pw.append(sqlinsertItem+"\n");
+        pw.append(sqlinsertChanson+"\n");
 
         System.out.println("done!");
 
-
+        ID++;
         busy = false;
     }
 
@@ -418,6 +445,23 @@ public class AddJson {
         }
     }
 
+    public void addAlbum(String name){
+        while (DL(this.buildRequestAlbum(name)) != 0) {
+            System.out.println("errreur");
+            try {
+                Thread.sleep(200);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+        String title = "";
+        String auteur = "";
+        String image = "";
+        String id = "0";
+        System.out.println("debut");
+        JSONObject js = this.getObjectJS();
+    }
+
     public void addMusic(String name) {
         System.out.println("MUS");
         while (DL(this.buildRequestMusique(name)) != 0) {
@@ -430,7 +474,7 @@ public class AddJson {
         }
         String title = "null";
         String album = "null";
-        String auteur = "null";
+        String auteur = "";
         String image = "null";
         String id = "0";
         System.out.println("debut");

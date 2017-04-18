@@ -11,7 +11,7 @@ public class Main {
     private static JFrame jf = null;
     static JProgressBar progressBar = null;
     static PrintWriter pw;
-    static int lim = 1000;
+    static int lim = 10000;
 
     public static void main(String[] args) {
         progressBar = new JProgressBar();
@@ -22,7 +22,7 @@ public class Main {
         jf.setSize(1000,80);
         jf.setVisible(true);
         try {
-            pw = new PrintWriter(new File("test.csv"));
+            pw = new PrintWriter(new File("test.txt"));
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
@@ -55,8 +55,8 @@ public class Main {
                         e.printStackTrace();
                     }
                     //ad.addVideo(i);
-                    ad.addBook(s);
-                    //ad.addMusic(s);
+                    //ad.addBook(s);
+                    ad.addMusic(s);
                     setProgress(i);
                 }
 
