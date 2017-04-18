@@ -61,6 +61,6 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="org.json" level="project" />
+    <orderEntry type="library" name="org.json" level="application" />
   </component>
 </module>
